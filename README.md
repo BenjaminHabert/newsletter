@@ -1,2 +1,0 @@
-# newsletter
-newsletter for quantmetry
