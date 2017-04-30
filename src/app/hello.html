@@ -5,9 +5,10 @@
     <div class="col-md-6">
         <p>Ici une truc pour rechercher</p>
         <p>Des éléménts</p>
+
         <div class="row">
           <div ng-repeat="item in $ctrl.news">
-            <p> {{item.title}} </p>
+            <news-item data=item></news-item>
           </div>
         </div>
     </div>
