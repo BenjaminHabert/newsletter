@@ -7,7 +7,7 @@
         <div class="input-group input-group-lg">
           <span class="input-group-addon" id="sizing-addon1">Recherche</span>
           <input type="text" class="form-control" placeholder="search for words" aria-describedby="sizing-addon1"
-            ng-model="test"  uib-typeahead="tag for tag in $ctrl.tags  | filter:$viewValue | limitTo:10"
+            ng-model="test"  uib-typeahead="tag for tag in tags  | filter:$viewValue | limitTo:10"
             typeahead-editable="true"
             />
         </div>
@@ -15,15 +15,15 @@
       </div>
 
         <div class="row">
-          <div ng-repeat="item in $ctrl.news | limitTo: $ctrl.limit as results">
+          <div ng-repeat="item in news | limitTo: limit as results">
             <news-item data=item></news-item>
           </div>
         </div>
         <div class="row">
           <button type="button" class="btn btn-primary btn-block"
-                ng-hide="results.length === $ctrl.news.length"
-                ng-click="$ctrl.limit = $ctrl.limit + $ctrl.limitExpand">
-                Show {{$ctrl.limitExpand}} More ({{$ctrl.news.length - results.length}} remaining)
+                ng-hide="results.length === news.length"
+                ng-click="limit = limit + limitExpand">
+                Show {{limitExpand}} More ({{news.length - results.length}} remaining)
           </button>
         </div>
     </div>

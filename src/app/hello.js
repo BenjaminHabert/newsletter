@@ -5,21 +5,25 @@ angular
     controller: helloController
   });
 
-function helloController() {
-  this.hello = 'Coucou le monde!';
+function helloController($scope, $http) {
   var unObjet = {
     title: 'Je suis un titre',
     text: 'Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.',
     date: '2017-03-24',
     infos: "pas d'infos pour le moment"
   };
-  this.tags = ['hello', 'hello', 'helllooo', 'coucou', 'cou', 'coucoucoucou'];
-  this.limitExpand = 5;
-  this.limit = this.limitExpand;
-  this.news = [];
+  $scope.tags = [];
+  $http
+    .get("data/taglist.json")
+    .then(function (result) {
+      $scope.tags = result.data;
+    });
+  $scope.limitExpand = 5;
+  $scope.limit = $scope.limitExpand;
+  $scope.news = [];
   for (var i = 0; i < 20; i++) {
     var newObject = angular.copy(unObjet);
     newObject.title += " " + i;
-    this.news.push(newObject);
+    $scope.news.push(newObject);
   }
 }
