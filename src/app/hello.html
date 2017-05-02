@@ -1,10 +1,18 @@
-<h1>{{ $ctrl.hello }}</h1>
+<!-- <h1>{{ $ctrl.hello }}</h1> -->
 
 <div class="container-fluid">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-        <p>Ici une truc pour rechercher</p>
-        <p>Des éléménts</p>
+      <div class="row">
+        <div class="page-header">
+        <h1>Newsletter technique de Quantmetry<br><small>I'm reading blogs so you don't have to</small></h1>
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon1">Recherche</span>
+          <input type="text" class="form-control" placeholder="search for words" aria-describedby="sizing-addon1">
+        </div>
+      </div>
+      </div>
+
 
         <div class="row">
           <div ng-repeat="item in $ctrl.news">
