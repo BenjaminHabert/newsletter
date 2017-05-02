@@ -13,6 +13,7 @@ function helloController() {
     date: '2017-03-24',
     infos: "pas d'infos pour le moment"
   };
+  this.tags = ['hello', 'hello', 'helllooo', 'coucou', 'cou', 'coucoucoucou'];
   this.limitExpand = 5;
   this.limit = this.limitExpand;
   this.news = [];
