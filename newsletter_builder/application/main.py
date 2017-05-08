@@ -34,3 +34,9 @@ print('[newsletter_builder] Saving results to json : {:s}'.format(output_filenam
 newsitems = analyser.get_corpus()
 with open(output_filename, 'w') as f:
     json.dump(newsitems, f, indent=3)
+
+output_filename = os.path.join(config['paths']['output_json_folder'], 'taglist.json')
+print('[newsletter_builder] Saving results to json : {:s}'.format(output_filename))
+tags = analyser.get_taglist()
+with open(output_filename, 'w') as f:
+    json.dump(tags, f, indent=3)

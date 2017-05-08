@@ -69,5 +69,5 @@ function computeRelevance(searchArray, newsitem) {
       relevance *= partialRelevance;
     });
   }
-  return relevance;
+  return relevance.toFixed(2);
 }
