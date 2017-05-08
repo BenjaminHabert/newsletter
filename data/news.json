@@ -1,0 +1,46 @@
+[
+  {
+    "title": "un titre python module",
+    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
+    "date": "2017-03-01",
+    "tags": [
+      {"tag": "python", "importance": 0.4},
+      {"tag": "module", "importance": 0.2}
+    ]
+  },
+  {
+    "title": "un titre python module moins important",
+    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
+    "date": "2017-03-01",
+    "tags": [
+      {"tag": "python", "importance": 0.2},
+      {"tag": "module", "importance": 0.1}
+    ]
+  },
+  {
+    "title": "un titre python test",
+    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
+    "date": "2017-03-10",
+    "tags": [
+      {"tag": "python", "importance": 0.4},
+      {"tag": "test", "importance": 0.5}
+    ]
+  },
+  {
+    "title": "un titre r module",
+    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
+    "date": "2017-03-10",
+    "tags": [
+      {"tag": "r", "importance": 0.1},
+      {"tag": "module", "importance": 0.2}
+    ]
+  },
+  {
+    "title": "un titre test",
+    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
+    "date": "2017-03-12",
+    "tags": [
+      {"tag": "test", "importance": 0.5}
+    ]
+  }
+]
