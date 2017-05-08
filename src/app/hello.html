@@ -6,17 +6,10 @@
         <h1>Newsletter technique de Quantmetry<br><small>I'm reading blog posts so you don't have to</small></h1>
         <div class="input-group input-group-lg">
           <span class="input-group-addon" id="sizing-addon1">Recherche</span>
-          <input type="text" class="form-control" placeholder="search for words" aria-describedby="sizing-addon1"
+          <input type="text" class="form-control" placeholder="comma-separated words" aria-describedby="sizing-addon1"
             ng-model="searchText"  uib-typeahead="tag for tag in tags  | filter:$viewValue | limitTo:10"
             typeahead-editable="true"
-
             />
-          <!-- ng-model-options="{ debounce: 1000 }" typeahead-wait-ms="0" -->
-          <!-- <input type="submit" id="submit" value="Submit" /> -->
-          <!-- <ng-submit
-            ng-submit="performSearch(test)">
-
-          </ng-submit> -->
         </div>
       </div>
       </div>

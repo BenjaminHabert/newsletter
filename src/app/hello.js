@@ -6,12 +6,6 @@ angular
   });
 
 function helloController($scope, $http) {
-  var unObjet = {
-    title: 'Je suis un titre',
-    text: 'Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.',
-    date: '2017-03-',
-    infos: "pas d'infos pour le moment"
-  };
   $scope.tags = [];
   $http
     .get("data/taglist.json")
@@ -21,21 +15,26 @@ function helloController($scope, $http) {
   $scope.limitExpand = 5;
   $scope.limit = $scope.limitExpand;
   var news = [];
-  for (var i = 0; i < 20; i++) {
-    var newObject = angular.copy(unObjet);
-    newObject.title += " " + i;
-    newObject.date += i;
-    news.push(newObject);
-  }
-  $scope.selectedNews = performSeach('', news);
+  $http
+    .get("data/news.json")
+    .then(function (result) {
+      news = result.data;
+      $scope.selectedNews = performSeach('', news);
+    });
   $scope.$watch('searchText', function (search) {
     $scope.selectedNews = performSeach(search, news);
   });
 }
 
 function performSeach(search, news) {
+  var searchArray = [];
+  if (search) {
+    searchArray = search.split(',').map(function (s) {
+      return s.trim().toLowerCase();
+    });
+  }
   for (var i = 0; i < news.length; i++) {
-    news[i].relevance = computeRelevance(search, news[i]);
+    news[i].relevance = computeRelevance(searchArray, news[i]);
   }
   // only news item with non 0 relevance
   var selected = news.filter(function (element) {
@@ -56,15 +55,19 @@ function performSeach(search, news) {
   return selected;
 }
 
-function computeRelevance(search, newsitem) {
-  var tags = newsitem.tags | [];
-  tags[0] = 0;
-  var relevance = 0;
-  if (search) {
-    // compute
-    relevance = 100 * Math.random().toPrecision(2);
-  } else {
-    relevance = 1;
+function computeRelevance(searchArray, newsitem) {
+  var tags = newsitem.tags || [];
+  var relevance = 1;
+  if (searchArray) {
+    searchArray.forEach(function (searchWord) {
+      var partialRelevance = 0;
+      tags.forEach(function (item) {
+        if (item.tag === searchWord) {
+          partialRelevance += item.importance;
+        }
+      });
+      relevance *= partialRelevance;
+    });
   }
   return relevance;
 }
