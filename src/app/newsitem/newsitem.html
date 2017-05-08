@@ -3,7 +3,7 @@
     <h3 class="panel-title">{{itemData.title}}</h3>
     <p> {{itemData.date}}   {{itemData.relevance}} </p>
   </div>
-  <div class="panel-body">
-    {{itemData.text}}
+  <div class="panel-body" ng-bind-html="innerHTML">
+    <!-- {{itemData.rawhtml}} -->
   </div>
 </div>

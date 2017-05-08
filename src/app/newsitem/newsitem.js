@@ -6,7 +6,12 @@ angular
       scope: {
         itemData: '=data'
       },
+      controller: ['$scope', '$sce', newsItemController],
       templateUrl: 'app/newsitem/newsitem.html'
     };
   }
 );
+
+function newsItemController($scope, $sce) {
+  $scope.innerHTML = $sce.trustAsHtml($scope.itemData.rawhtml);
+}

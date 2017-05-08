@@ -1,46 +1,1153 @@
 [
-  {
-    "title": "un titre python module",
-    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
-    "date": "2017-03-01",
-    "tags": [
-      {"tag": "python", "importance": 0.4},
-      {"tag": "module", "importance": 0.2}
-    ]
-  },
-  {
-    "title": "un titre python module moins important",
-    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
-    "date": "2017-03-01",
-    "tags": [
-      {"tag": "python", "importance": 0.2},
-      {"tag": "module", "importance": 0.1}
-    ]
-  },
-  {
-    "title": "un titre python test",
-    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
-    "date": "2017-03-10",
-    "tags": [
-      {"tag": "python", "importance": 0.4},
-      {"tag": "test", "importance": 0.5}
-    ]
-  },
-  {
-    "title": "un titre r module",
-    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
-    "date": "2017-03-10",
-    "tags": [
-      {"tag": "r", "importance": 0.1},
-      {"tag": "module", "importance": 0.2}
-    ]
-  },
-  {
-    "title": "un titre test",
-    "text": "Ce texte pourrait être plus long. Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.Ce texte pourrait être plus long.",
-    "date": "2017-03-12",
-    "tags": [
-      {"tag": "test", "importance": 0.5}
-    ]
-  }
+   {
+      "rawhtml": "<p><a href=\"http://scikit-learn.org/dev/modules/neural_networks_supervised.html\">http://scikit-learn.org/dev/modules/neural_networks_supervised.html#multi-layer-perceptron</a></p><p>Il me semble que les r\u00e9seaux de neurones ne sont pas impl\u00e9ment\u00e9s pour l'instant dans sklearn. Je viens de voir qu'une impl\u00e9mentation arrivera dans le future (c'est pour l'instant dans la\u00a0version\u00a0<strong>0.18.dev0</strong>). Leur impl\u00e9mentation permet de faire de la classification et de la r\u00e9gression.</p>",
+      "date": "2015-10-05",
+      "images": [],
+      "tags": [],
+      "title": "Scikit-Lean - Neural Networks"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://blog.harshulja.in/tweetlake-twitter-streaming-data/\">https://blog.harshulja.in/tweetlake-twitter-streaming-data/</a></p><p>Quelqu'un a r\u00e9dig\u00e9 un module qui peut \u00eatre appel\u00e9 en ligne de commande pour r\u00e9cup\u00e9rer des donn\u00e9es Twitter. N'h\u00e9sitez pas \u00e0 demander \u00e0 Jean-Baptiste qui a \u00e9galement travailler sur la collecte de tweets.\u00a0</p>",
+      "date": "2015-10-05",
+      "images": [],
+      "tags": [],
+      "title": "Twitter Data"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://mxnet.readthedocs.org/en/latest/tutorial/imagenet_full.html&quot; \\t &quot;_blank\">https://mxnet.readthedocs.org/en/latest/tutorial/imagenet_full.html</a></p><p>Ils expliquent comment ils ont entra\u00een\u00e9 un algo de classification sur un 14 millions d'images. Les classes sont des concepts haut niveau (ex:\u00a0suspension bridge). Ils fournissent \u00e9galement leur classifier\u00a0<strong>d\u00e9j\u00e0 entra\u00een\u00e9</strong>.\u00a0</p>",
+      "date": "2015-10-05",
+      "images": [],
+      "tags": [],
+      "title": "Reconnaissance d'images"
+   },
+   {
+      "rawhtml": "<p>How do you build a classifier when the training set doesn't fit in RAM ? You need a classifier that supports online learning. One problem that can arise is that the feature space changes over the iterations. A possible solution is to hash the inputs. The resulting features are bound to a chosen space. This technic can be used for text classification.\u00a0</p><ul><li><a href=\"http://scikit-learn.org/stable/auto_examples/applications/plot_out_of_core_classification.html\">example from scikit learn</a></li><li>r<a href=\"http://www.opendatascience.com/blog/riding-on-large-data-with-scikit-learn/\">eal-world example on 36Gb dataset</a></li><li><a href=\"http://blog.someben.com/2013/01/hashing-lang/\">more on the hashing trick</a></li></ul>",
+      "date": "2015-11-02",
+      "images": [],
+      "tags": [],
+      "title": "Out of core classification"
+   },
+   {
+      "rawhtml": "<p>From the abstract of the article: Change detection in multivariate time series has applications in many domains, including health care and network monitoring. A common approach to detect changes is to compare the divergence between the distributions of a reference window and a test window. When the number of dimensions is very large, however, the na\u00efve approach has both quality and efficiency issues: to ensure robustness the window size needs to be large, which not only leads to missed alarms but also increases runtime.</p><p><a href=\"http://eda.mmci.uni-saarland.de/prj/light/\">link to article and source code in Java</a></p><p>The article describes a method that may be a bit advanced.. but it is probably full of interesting references useful for event detection in timeseries.</p>",
+      "date": "2015-11-02",
+      "images": [],
+      "tags": [],
+      "title": "Change Detection in multivariate timeseries"
+   },
+   {
+      "rawhtml": "<p>A mind map is a way to summarize the hierarchical relationships between concepts (see enclosed image).</p><p><a href=\"https://codesachin.wordpress.com/2015/10/15/generating-rudimentary-mind-maps-from-word2vec-models/\">This blog post</a>\u00a0shows how to generate a mind map from a text (the underlying graph, not so much the visualization).</p>",
+      "date": "2015-11-02",
+      "images": [],
+      "tags": [],
+      "title": "Generating Mind Maps from word2vec model"
+   },
+   {
+      "rawhtml": "<p>Small multiples (<a href=\"http://projects.flowingdata.com/tut/linked_small_multiples_demo/\">demo here</a>) seem obvious, but we rarely (never?) use them. Done properly it is a great way to compare a bunch of categories. Much better than having 15 line plots overlapping one another.</p><p><a href=\"https://flowingdata.com/2014/10/15/linked-small-multiples/\">More info here</a>\u00a0on the Flowing Data blog that I highly recommend (although some of the content is behind a paywall..)</p>",
+      "date": "2015-11-02",
+      "images": [],
+      "tags": [],
+      "title": "Visualization technique: small multiples"
+   },
+   {
+      "rawhtml": "<p>To be efficient, a machine learning pipeline requires human input for several steps: selecting and transforming features, choosing an algorithm and optimizing its hyper-parameters. Even if the first two steps are chosen, the optimization of hyper-parameters is usually done with a Grid Search provided by Scikit-Learn, which explores the full parameter space instead of converging to the best parameters. TPOT is a tool that does all this pipeline optimization for you. It relies on Scikit-Learn.</p><ul><li><a href=\"http://www.randalolson.com/2015/11/15/introducing-tpot-the-data-science-assistant/\">Website for tutorial</a> http://www.randalolson.com/2015/11/15/introducing-tpot-the-data-science-assistant/</li><li><a href=\"https://github.com/rhiever/tpot\">Github </a> https://github.com/rhiever/tpot</li><li>TPOT relies on <a href=\"https://github.com/rsteca/sklearn-deap\">DEAP</a> to perform a Genetic Algorithm optimization of hyper-parameters</li></ul>",
+      "date": null,
+      "images": [],
+      "tags": [],
+      "title": "Optimizing Machine Learning Pipelines (Python)"
+   },
+   {
+      "rawhtml": "<p>There are several distributed computation tools that expose an R interface: Parallel package, Distributed R, SparkR. However the syntax is not homogeneous, which makes porting the code difficult. The ddR package provides a single interface for all these tools. </p><ul><li><a href=\"http://www.r-bloggers.com/introducing-distributed-data-structures-in-r/\">Intro in r-bloggers</a> - http://www.r-bloggers.com/introducing-distributed-data-structures-in-r/</li><li><a href=\"https://github.com/vertica/ddR\">Github</a> -  https://github.com/vertica/ddR</li></ul>",
+      "date": null,
+      "images": [],
+      "tags": [],
+      "title": "Distributed Data Structures in R"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://opensource.com/life/15/11/getting-started-web-mapping\">This article</a> https://opensource.com/life/15/11/getting-started-web-mapping gives some examples of technologies used to create custom maps.</p><ul><li>Our team SNCF-V\u00e9g\u00e9tation (Emmanuel, Pierre, Xavier) used for instance PostgreSQL + <a href=\"http://geoserver.org/\">GeoServer</a> + <a href=\"http://leafletjs.com/\">LeafLet</a> to map accident risks on train tracks.</li></ul>",
+      "date": null,
+      "images": [],
+      "tags": [],
+      "title": "Creating Maps on the Web"
+   },
+   {
+      "rawhtml": "<p>Google recently released an <a href=\"https://cloud.google.com/vision/\">API for image</a> analysis. There are several features but probably the most valuable is object detection in images. Limitation: it is a Web API and there probably is a threshold on how many images you can send. It is free at the moment as the project is in the preview phase.</p>",
+      "date": null,
+      "images": [],
+      "tags": [],
+      "title": "Cloud Vision API"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://blaze.pydata.org/blog/2015/09/16/reddit-impala/\">This article</a> http://blaze.pydata.org/blog/2015/09/16/reddit-impala/ is an example on Big Data analysis. There dataset is 1Tb uncompressed and is stored in a Hadoop filesystem. Impala is used as a distributed SQL engine to query this data. <a href=\"http://blaze.pydata.org/\">Blaze</a> is a python library that provides a uniform interface for many datasources. </p>",
+      "date": null,
+      "images": [],
+      "tags": [],
+      "title": "Big Data with Blaze (Python) and Impala "
+   },
+   {
+      "rawhtml": "<p><a href=\"https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en\">Full Blog Post on IBM developerWorks</a></p><p>If you want to increase the speed at which your Python scripts run, you first need a tool to diagnose which part of the code is taking the longest: a profiler.</p><ul><li>I have used the <a href=\"https://docs.python.org/2/library/profile.html\">cProfile</a> module that is part of the standard library and it does the job</li><li>The article recommends using <a href=\"https://github.com/rkern/line_profiler\">line_profiler</a></li><li>PyCharm also provides a visual profiling tool that can sometimes be usefull</li></ul><p>A possible solution to make the code run faster is to compile it. Several solutions exist:</p><ul><li>I tried <a href=\"http://docs.cython.org/src/reference/compilation.html\">Cython</a> and it was very easy to set up. I recommend using <a href=\"https://github.com/cython/cython/tree/master/pyximport\">pyximport</a> to import compiled files</li><li>The blog post suggests using <a href=\"http://numba.pydata.org/?cm_mc_uid=06605490527514316968829&amp;cm_mc_sid_50200000=1451899518\">Numba</a>. It is supposedly easy to configure when using Anaconda.</li></ul><p>Finally, the articles provides a few tricks that can be used to increase the execution speed: vectorizing, computation caching.</p>",
+      "date": "2016-01-04",
+      "images": [],
+      "tags": [],
+      "title": "How to make Python run as fast as Julia?"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://github.com/donnemartin/data-science-ipython-notebooks\">View it on github.</a></p><p>This repository contains dozens of notebooks that demonstrate how to use a particular technology. Topics range from Spark to Tensor Flow and Theano. They also have a few notebooks showing how to set up your environment (anaconda, git, amazon web service).</p>",
+      "date": "2016-01-04",
+      "images": [],
+      "tags": [],
+      "title": "DataScience Ipython Notebooks Tutorials"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://github.com/spotify/luigi\">Luigi</a> is a Python package built by Sptotify that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization, handling failures, command line integration, and much more. It was typically developed to handle Hadoop jobs and related tasks.</p><p>Common Probability Distributions</p><p>Cloudera kindly provided us with a cheat sheet on probability distribution. Check the explanation on <a href=\"http://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/\">their blog</a>.</p>",
+      "date": "2016-01-04",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Luigi"
+   },
+   {
+      "rawhtml": "<ul><li>For R users: ggplot was updated to version 2.0 recently. Check out a short patch note on <a href=\"http://blog.rstudio.org/2015/12/21/ggplot2-2-0-0/\">Rstudio Blog</a></li><li>For Python users: remember that, in matplotlib you can select a style for your plots, ggplot being one of them (<a href=\"http://matplotlib.org/users/style_sheets.html\">see here</a>). However, matlplotlib is updating its default style and things should look better from now on. </li></ul>",
+      "date": "2016-01-04",
+      "images": [],
+      "tags": [],
+      "title": "ggplot "
+   },
+   {
+      "rawhtml": "<p>A web API is useful to share the result of your work in a standardized, easily accessible, language agnostic way. Building a web API from an existing code is usually straightforward:</p><ul><li>make sure that the functionality you want to provide is packaged as a function</li><li>create an access route to this function (i.e. a URL)</li><li>run a webserver that receives messages on this URL</li></ul><p>A general introduction on APIs and how to build them <a href=\"https://zapier.com/learn/apis/chapter-1-introduction-to-apis/\">here</a>. If you are an R user the recommended package is <a href=\"http://plumber.trestletech.com/\">Plumber</a> (previously known as rapier). For Python users I suggest either the tiny <a href=\"http://bottlepy.org/docs/dev/index.html\">Bottle</a> or the more full-fledged <a href=\"http://flask.pocoo.org/\">Flask</a>. </p>",
+      "date": "2016-01-18",
+      "images": [],
+      "tags": [],
+      "title": "Creating a web API"
+   },
+   {
+      "rawhtml": "<p>This is not really a technical article but rather an overview of data science as both a tool and a field of study. Download PDF <a href=\"http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf\">here</a>. This is a great read both for us and for our clients to get a general idea of where Data Science is now and what is coming next.</p>",
+      "date": "2016-01-18",
+      "images": [],
+      "tags": [],
+      "title": "50 Years of Data Science"
+   },
+   {
+      "rawhtml": "<p>This idea of a low rank model is to represent data with fewer, more representative features. Let\u2019s take as an example the classification of text documents. The first step is usually to describe the documents using a Word2Vec approach. In this case a dictionary of several thousands of words is built (even more if you use 2- or 3-grams). So many features can be a problem if you want to train an algorithm. A possible solution is to use topic analysis: vectors of words are summarized in a smaller number of topics. In this example the topics space has a lower rank than the words space.</p><p>H2O has a <a href=\"http://blog.h2o.ai/2015/12/glrm-transfer-learning/\">tutorial</a> on how to use their Generalized Low Rank Models (that is not specific to textual data). A few slides <a href=\"http://fr.slideshare.net/0xdata/generalized-low-rank-models\">here</a> as well.</p>",
+      "date": "2016-01-18",
+      "images": [],
+      "tags": [],
+      "title": "Generalized Low Rank Models with H2O"
+   },
+   {
+      "rawhtml": "<ul><li><strong>Sankey Diagrams</strong><br />This kind of visualization is useful when you want to represent a process with inputs and outputs. The widths of the edges are proportional to the value of the flow. Several options are available: <a href=\"http://matplotlib.org/examples/api/sankey_demo_basics.html\">matplotlib</a> demo (rather ugly), blog  <a href=\"http://www.r-bloggers.com/generating-sankey-diagrams-from-rcharts/\">post</a> on R-bloggers,  Javascript with <a href=\"https://developers.google.com/chart/interactive/docs/gallery/sankey\">google</a> charts library.</li></ul><p>Figure : Example of Sankey Diagram using google charts javascript library</p>",
+      "date": "2016-01-18",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Visualization Ideas"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://datascienceplus.com/strategies-to-speedup-r-code/\">http://datascienceplus.com/strategies-to-speedup-r-code/</a></p><p>Let\u2019s be honest: R is slow. Here are a few tips to speed up your loops. Some of them seem obvious (vectorize it), some seem more advanced. I will let R users be the judges. </p>",
+      "date": "2016-02-01",
+      "images": [],
+      "tags": [],
+      "title": "Strategies to speed up R code"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://blog.dominodatalab.com/applied-spatial-data-science-with-r/\">http://blog.dominodatalab.com/applied-spatial-data-science-with-r/</a></p><p>A complete tutorial on a few packages useful for spatial analysis: <a href=\"https://cran.r-project.org/web/packages/rgeos/index.html\">rgeos</a>, <a href=\"https://cran.r-project.org/web/packages/rgdal/index.html\">rgdal</a>, <a href=\"http://rstudio.github.io/leaflet/\">leaflet</a>, <a href=\"https://cran.r-project.org/web/packages/lubridate/index.html\">lubridate</a>. </p>",
+      "date": "2016-02-01",
+      "images": [],
+      "tags": [],
+      "title": "Spatial Data Science with R"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://shahramabyari.com/2016/01/19/detecting-outliers-in-high-dimensional-data-sets/\">http://shahramabyari.com/2016/01/19/detecting-outliers-in-high-dimensional-data-sets/</a></p><p>A Python implementation where the feature space is split in two dimensional spaces and outliers are spotted with a cut-off parameter. The method is called <em>High Contrast Subspaces for Density-Based Outlier Ranking</em> (HiCS)</p>",
+      "date": "2016-02-01",
+      "images": [],
+      "tags": [],
+      "title": "Detecting Outliers in High-Dimensional Space"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://etetoolkit.org/\">http://etetoolkit.org/</a></p><p>Python lacks good tree manipulation libraries. I haved used <a href=\"https://networkx.github.io/\">NetworkX</a> in the past; it\u2019s Ok but the visualization part is very basic. Why not give etetoolkit a try?</p>",
+      "date": "2016-02-01",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "A Python Framework for the Analysis and Visualization of Trees. "
+   },
+   {
+      "rawhtml": "<p><a href=\"http://www.fullstackpython.com/postgresql.html\">http://www.fullstackpython.com/postgresql.html</a></p><p>This post is an ensemble of resources explaining how to use PostgreSQL with Python. However most of it is target towards web developers using Django..</p>",
+      "date": "2016-02-01",
+      "images": [],
+      "tags": [],
+      "title": "Using PostgreSQL with Python"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://arnicas.github.io/interactive-vis-course/index.html\">http://arnicas.github.io/interactive-vis-course/index.html</a></p><p>A complete course in a repository to teach you the basics and the advanced of D3.js, the most prominent javascript dataviz library.</p>",
+      "date": "2016-02-01",
+      "images": [],
+      "tags": [],
+      "title": "Interactive Web Viz with D3"
+   },
+   {
+      "rawhtml": "<p>Yannick continue de nous faire part de ses exp\u00e9rimentations en ce qui concerne l\u2019optimisation d\u2019hyper-param\u00e8tres sur le channel Slack #veille-ML.</p><ul><li><a href=\"https://github.com/Yelp/MOE\">MOE</a> (Metrics Optimization Engine) est un outil qui optimise les param\u00e8tres d\u2019un syst\u00e8me. La formulation de cet outil est plus g\u00e9n\u00e9rale que le domaine de l\u2019apprentissage artificiel. On utilise une interface REST pour communiquer avec, c\u2019est donc a priori language-agnostic. Pour l\u2019instant la premi\u00e8re exp\u00e9rimentation a \u00e9t\u00e9 faite en Python</li><li><a href=\"https://github.com/rsteca/sklearn-deap\">DEAP</a> est une librairie qui ajoute une couche d\u2019optimisation d\u2019hyper-param\u00e8tres \u00e0 Scikit-Learn. Utilise un algorithme g\u00e9n\u00e9tique pour faire l\u2019optimisation. Pas encore test\u00e9 par Quantmetry.</li></ul>",
+      "date": "2016-02-15",
+      "images": [],
+      "tags": [],
+      "title": "Hyper-Parameters Optimization"
+   },
+   {
+      "rawhtml": "<p>Quelques ressources tr\u00e8s g\u00e9n\u00e9rales sur les diff\u00e9rents algorithmes ou sur les choix d\u2019algorithmes d\u2019apprentissage artificiel adapt\u00e9s dans un contexte donn\u00e9.</p><ul><li><a href=\"http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/\">A tour of Machine Learning Algorithms</a></li><li><a href=\"http://scikit-learn.org/stable/tutorial/machine_learning_map/\">Scikit-Learn cheat-sheet</a></li></ul><ul><li><a href=\"http://blog.dato.com/choosing-a-recommender-model\">Choosing the right recommender Model (blog post)</a></li></ul><p><img alt=\"decisiontree\" src=\"location/in/app\" /></p>",
+      "date": "2016-02-15",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Choisir un algorithme / un mod\u00e8le"
+   },
+   {
+      "rawhtml": "<ul><li><a href=\"http://kateto.net/network-visualization\">Cet article</a> fournit un tutoriel d\u00e9taill\u00e9 pour afficher des r\u00e9seaux / arbres en R. L\u2019article va jusqu\u2019\u00e0 montrer comment int\u00e9grer des arbres interactifs dans R Studio. En terme de packages les ressources utilis\u00e9es sont\u00a0:<ul><li><a href=\"http://igraph.org/\">igraph</a></li><li><a href=\"https://cran.r-project.org/web/packages/sna/\">sna</a>, <a href=\"https://cran.r-project.org/web/packages/network/\">network</a> et <a href=\"https://cran.r-project.org/web/packages/ndtv/\">ndtv</a> qui semblent tous les trois issus de l\u2019\u00e9quipe de <a href=\"http://statnet.org/\">statnet</a></li></ul><li><a href=\"http://sachaepskamp.com/qgraph\">qgraph </a>est un package de visualisation de r\u00e9seaux. Visiblement il est assez orient\u00e9 vers la visualisation de corr\u00e9lations entre variables. Voir <a href=\"http://psychosystems.org/network-model-selection-using-qgraph-1-3-10/\">ici</a> pour un tutorial.  </li><br /></p>",
+      "date": "2016-02-15",
+      "images": [
+         "location/in/app",
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Network Visualization in R"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://chriswarrick.com/blog/2016/02/10/deploying-python-web-apps-with-nginx-and-uwsgi-emperor/\">Cet article</a> est un tutoriel pour mettre en production une application Web \u00e9crite en Python (Django, Flask, Pyramid ou Bottle). Je pense que c\u2019est article est utile pour passer d\u2019une application qui est en test sur une QBox \u00e0 une application en production sur un site externe et qui re\u00e7oit potentiellement de nombreuses requ\u00eates. Le tutoriel utilise <a href=\"https://fr.wikipedia.org/wiki/Nginx\">nginx</a> et <a href=\"https://uwsgi-docs.readthedocs.org/en/latest/\">uWSGI</a>. </p>",
+      "date": "2016-02-15",
+      "images": [],
+      "tags": [],
+      "title": "Deploying a Python Web Application"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://github.com/kjw0612/awesome-rnn\">Cette page github</a> r\u00e9unit un grand nombre de ressources utiles pour tout ce qui concerne le Deep Learning et les R\u00e9seaux de Neurones R\u00e9currents. </p>",
+      "date": "2016-02-15",
+      "images": [],
+      "tags": [],
+      "title": "Awesome Recurrent Neural Networks"
+   },
+   {
+      "rawhtml": "<p>Le Challenge 4 Cancer est un \u00e9v\u00e9nement organis\u00e9 par <a href=\"http://epidemium.cc/\">Epidemium</a> et sponsoris\u00e9 par le laboratoire <a href=\"http://www.roche.fr/\">Roche</a> portant sur la th\u00e9matique de l\u2019\u00e9pid\u00e9miologie du cancer. Les objectifs du Challenge sont:</p><ul><li>Exploiter des donn\u00e9es ouvertes en rapport avec la sant\u00e9 et le territoire</li><li>R\u00e9unir des \u00e9quipes pluridisciplinaires\u00a0: m\u00e9decins, statisticiens, d\u00e9veloppeurs\u2026</li><li>Montrer la pertinence d\u2019une approche d\u2019exploitation syst\u00e9matique des donn\u00e9es pour les enjeux de sant\u00e9 publique.</li></ul>",
+      "date": "2016-02-29",
+      "images": [],
+      "tags": [],
+      "title": "Epidemium et le Challenge 4 Cancer."
+   },
+   {
+      "rawhtml": "<p><strong>Positionnement</strong>\u00a0: le Challenge 4 Cancer comporte plusieurs cat\u00e9gories. Nous avons choisi de travailler sur l\u2019axe de \u00ab\u00a0Visualisation de l\u2019\u00e9volution du cancer dans le temps\u00a0et dans l\u2019espace\u00a0\u00bb. </p><p><strong>R\u00e9sultat</strong>. Nous avons produit un site Web permettant de produire de mani\u00e8re simple un ensemble de visualisations des donn\u00e9es disponibles dans  le cadre du Challenge. Une \u00e9quipe de quatre personnes (Issam, Long, St\u00e9phane et Benjamin) a travaill\u00e9 pendant 2.5 jours pour fournir ce r\u00e9sultat. Les principales fonctionnalit\u00e9s du site sont\u00a0:</p><ul><li>recherche et s\u00e9lection des donn\u00e9es que l\u2019on veut repr\u00e9senter</li><li>visualisation interactive de donn\u00e9es mono-vari\u00e9es et bi-vari\u00e9es</li><li>3 niveaux de segmentation\u00a0: total / par \u00e2ge / par sexe</li><li>courbe de tendance fournissant une pr\u00e9diction pour les ann\u00e9es futures.</li></ul>",
+      "date": "2016-02-29",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Travail r\u00e9alis\u00e9"
+   },
+   {
+      "rawhtml": "<p>Ce projet \u00e9tait tr\u00e8s motivant et nous esp\u00e9rons pouvoir capitaliser sur le travail fourni. Plusieurs pistes sont envisag\u00e9es\u00a0:</p><ul><li>Finaliser le site Web pour le montrer lors de <strong>Big Data Paris</strong></li><li><strong>Pr\u00e9sentation</strong> du travail lors d\u2019un Meetup Epidemium</li><li>Retour d\u2019exp\u00e9rience <strong>m\u00e9thodologique</strong>. Ce projet a constitu\u00e9 la premi\u00e8re it\u00e9ration d\u2019un projet de R&amp;D structur\u00e9 comme une mission. Il serait int\u00e9ressant de partager sur ce qui a fonctionn\u00e9 et ce qui \u00e9tait difficile</li><li>Retour d\u2019exp\u00e9rience <strong>technique</strong>. Nous avons d\u00e9couvert et mis ensemble plusieurs briques technologiques que nous n\u2019utilisons pas habituellement. Nous ferons sans doute une pr\u00e9sentation \u00e0 l\u2019ensemble de l\u2019\u00e9quipe des choix r\u00e9alis\u00e9s.</li><li><strong>D\u00e9veloppement d\u2019un outil</strong> similaire qui pourrait \u00eatre utilis\u00e9 en mission. En particulier nous pensons qu\u2019il serait int\u00e9ressant de disposer d\u2019un outil de visualisation interactif lors des d\u00e9marrages de mission (phase d\u2019analyse descriptive). Nous gagnerions du temps et nous pourrions permettre au client d\u2019interagir directement avec ses donn\u00e9es.</li></ul>",
+      "date": "2016-02-29",
+      "images": [],
+      "tags": [],
+      "title": "D\u00e9veloppements futurs"
+   },
+   {
+      "rawhtml": "<p>Git continue \u00e0 \u00eatre utile et nous continuons \u00e0 \u00eatre mal \u00e0 l\u2019aise dans son utilisation. Quelques \u00e9l\u00e9ments pour se rafra\u00eechir la m\u00e9moire sur les bonnes pratiques.</p><ul><li><a href=\"https://gitlab.com/quantmetry/guidelines\">Guidelines</a> par Long sur notre repository, en particulier la section sur les <a href=\"https://gitlab.com/quantmetry/guidelines/blob/master/commiting.md\">commit</a>. </li><li>Tutorial expliquant la diff\u00e9rence entre <a href=\"https://www.atlassian.com/git/tutorials/merging-vs-rebasing/workflow-walkthrough\">merge / rebase</a>.</li><li>Un <a href=\"https://medium.freecodecamp.com/understanding-git-for-real-by-exploring-the-git-directory-1e079c15b807\">article</a> qui d\u00e9crit ce que contient exactement le r\u00e9pertoire\u00a0.git</li></ul>",
+      "date": "2016-02-29",
+      "images": [],
+      "tags": [],
+      "title": "Quelques rappels sur GIT"
+   },
+   {
+      "rawhtml": "<p>Spotify a cr\u00e9\u00e9 une librairie pour la recherche approxim\u00e9e des plus proches voisins dans un dataset\u00a0: <a href=\"https://github.com/spotify/annoy\">Annoy</a>.  C\u2019est utile quand on veut g\u00e9n\u00e9rer une liste d\u2019exemples similaires \u00e0 partir d\u2019un dataset contenant des millions d\u2019entr\u00e9es et des centaines de features. La librairie est en C++ et a une interface en <strong>Python</strong>. Visiblement quelqu\u2019un a \u00e9galement cr\u00e9\u00e9 une <a href=\"http://dirk.eddelbuettel.com/code/rcpp.annoy.html\">interface en R</a>.</p>",
+      "date": "2016-02-29",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Recherche de voisins rapide"
+   },
+   {
+      "rawhtml": "<p>Cet <a href=\"https://iamtrask.github.io/2016/02/25/deepminds-neural-stack-machine/\">article</a> est une sorte de tutoriel. Il explique comment prendre un article de recherche et le traduire en code. Une explication tr\u00e8s d\u00e9taill\u00e9e et des commentaires des diff\u00e9rentes \u00e9quations utilis\u00e9es. L\u2019article utilis\u00e9 comme exemple est un article de Google\u00a0<em>: Learning to Transduce with Unbounded Memory</em> (<a href=\"http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory.pdf\">pdf</a>).</p>",
+      "date": "2016-02-29",
+      "images": [],
+      "tags": [],
+      "title": "How to Code and Understand DeepMind's Neural Stack Machine"
+   },
+   {
+      "rawhtml": "<p>Article qui montre comment coder un r\u00e9seau de neurones dans lequel les coefficients d\u2019activation prennent des valeurs bool\u00e9ennes. On imagine bien s\u00fbr l\u2019int\u00e9r\u00eat que cela peut repr\u00e9senter en terme de performance / d\u2019occupation m\u00e9moire. <a href=\"http://arxiv.org/abs/1602.02830\">Article sur arXiv</a> et <a href=\"https://github.com/MatthieuCourbariaux/BinaryNet\">code sur github</a>. </p>",
+      "date": "2016-02-29",
+      "images": [],
+      "tags": [],
+      "title": "BinaryNet: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1"
+   },
+   {
+      "rawhtml": "<p>Databricks a r\u00e9cemment sorti un package qui permet de profiter de l\u2019architecture distribu\u00e9e de Spark pour entrainer diff\u00e9rents mod\u00e8les Scikit Learn. Cela permet de diminuer grandement le temps d\u2019optimisation des hyper-param\u00e8tres puisque les mod\u00e8les peuvent \u00eatre entra\u00een\u00e9s ind\u00e9pendamment. Voici un court <a href=\"https://databricks.com/blog/2016/02/08/auto-scaling-scikit-learn-with-spark.html\">article</a> qui montre un exemple simple d\u2019utilisation du package. </p>",
+      "date": "2016-02-29",
+      "images": [],
+      "tags": [],
+      "title": "Scikit-Learn + Spark = \u2665"
+   },
+   {
+      "rawhtml": "<p>Ce genre de <a href=\"http://www.bloomberg.com/graphics/2015-measles-outbreaks/\">visualisation</a> qui se met \u00e0 jour lorsqu\u2019on parcourt la page web est tr\u00e8s \u00e0 la mode. Pour faire \u00e7a on peut utiliser la librairie Javascript <a href=\"http://1wheel.github.io/graph-scroll/\">graph_scroll.js</a> qui s\u2019appuie elle-m\u00eame sur <a href=\"https://github.com/mbostock/stack\">Stack</a> qui fait partie de D3.</p>",
+      "date": "2016-02-29",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Cr\u00e9er une visualisation <em>scrollable</em>"
+   },
+   {
+      "rawhtml": "<p>Expor package R qui s\u2019appuie sur Shiny pour faire une exploration facile des donn\u00e9es. Lien vers <a href=\"https://github.com/juba/explor\">github</a> et vers le <a href=\"https://cran.r-project.org/web/packages/explor/\">CRAN</a> index. Le package fait l\u2019interface entre le r\u00e9sultat d\u2019un calcul et la visualisation. Il a l\u2019air particuli\u00e8rement utilis\u00e9 pour la visualisation d\u2019une analyse multivari\u00e9e (Principal Component Analysis, Correspondance Analysis, Multivariate Correspondance Analysis).  Ci-dessous un exemple de ce que le package fait. </p>",
+      "date": "2016-03-14",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "R package for rapid data exploration"
+   },
+   {
+      "rawhtml": "<p>Ce lien a peut-\u00eatre \u00e9t\u00e9 d\u00e9j\u00e0 partag\u00e9. Il s\u2019agit d\u2019une <a href=\"https://github.com/caesar0301/awesome-public-datasets\">collection de dataset</a> ouverts qui concernent une multitude de domaine (sant\u00e9, \u00e9nergie, climat\u2026). Comme souvent la plupart des donn\u00e9es seront focalis\u00e9es sur le monde anglo-saxon. Pour rappel n\u2019h\u00e9sitez pas \u00e0 passer sur <a href=\"https://www.data.gouv.fr/fr/\">data.gouv.fr</a> pour des donn\u00e9es bien de chez nous. </p>",
+      "date": "2016-03-14",
+      "images": [],
+      "tags": [],
+      "title": "Une liste (de plus) de donn\u00e9es ouvertes"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://blog.sigopt.com/post/140871698423/sigopt-for-ml-unsupervised-learning-with-even\">Cet article de blog</a> prend le cas pratique suivant\u00a0: on veut faire une classification d\u2019un ensemble d\u2019image dont seulement une faible fraction est labellis\u00e9e. Leur id\u00e9e est d\u2019utiliser un algorithme non supervis\u00e9 pour grouper toutes les images puis un algorithme supervis\u00e9 qui utilise les groupes et les quelques labels existants. Les deux algorithmes sont optimis\u00e9s conjointement.</p><p>Le probl\u00e8me de l\u2019article est qu\u2019il est l\u00e0 pour mettre en avant une librairie commerciale de machine learning.</p>",
+      "date": "2016-03-14",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Passer de supervis\u00e9 \u00e0 non supervis\u00e9 avec une optimisation Bay\u00e9sienne "
+   },
+   {
+      "rawhtml": "<p>L\u2019\u00e9quipe du projet Epidemium a construit un pipeline de visualisation qui repose sur un server R (Plumber) et une librairie de visualisation (Plotly).<br /><a href=\"http://danielphadley.com/How-To-Dashboard-R/\">Cet article</a> propose une solution alternative pour obtenir un r\u00e9sultat similaire. Un script R g\u00e9n\u00e8re une page html (package <a href=\"http://yihui.name/knitr/\">knitr</a>) et la visualisation est faire en javascript (librairie <a href=\"http://www.highcharts.com/\">Highcharts</a>). La limitation de la m\u00e9thode pr\u00e9sent\u00e9e est que les graphiques en m\u00eame temps que la page web et sont donc statiques. </p><p>Voici un exemple de visuel provenant du <a href=\"http://www.somervillema.gov/dashboard/daily.html\">site qu\u2019ils ont fabriqu\u00e9</a> avec ces technologies\u00a0:</p>",
+      "date": "2016-03-14",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Visualisation de donn\u00e9es sur le Web \u00e0 partir de R"
+   },
+   {
+      "rawhtml": "<p>Une nouvelle version de Pandas vient de sortir\u00a0! Apr\u00e8s un rapide coup d\u2019\u0153il les <a href=\"http://pandas.pydata.org/pandas-docs/stable/whatsnew.html\">modifications majeures</a> sont\u00a0:</p><ul><li>meilleures fonctionnalit\u00e9s pour la gestion du texte (en particulier l\u2019application d\u2019une expression r\u00e9guli\u00e8re \u00e0 l\u2019ensemble des \u00e9l\u00e9ments d\u2019une s\u00e9rie)</li><li>meilleure repr\u00e9sentation d\u2019une <a href=\"http://pandas.pydata.org/pandas-docs/stable/computation.html\">fen\u00eatre de s\u00e9lection</a>. Cette fen\u00eatre de plusieurs lignes cons\u00e9cutives peut \u00eatre utilis\u00e9e pour le calcul de moyennes glissantes. Le formalisme est maintenant similaire \u00e0 celui utilis\u00e9 par la fonction .groupby()<ul><li>Trois types de fen\u00eatres sont possible\u00a0: .rolling()  .expanding()  et  .ewm()  - exponentially weighted window. </li><li>Plusieurs m\u00e9thodes d\u2019agr\u00e9gation peuvent \u00eatre appliqu\u00e9es \u00e0 l\u2019int\u00e9rieur d\u2019une fen\u00eatre\u00a0: somme, \u00e9cart type, covariance, corr\u00e9lation etc..</li></ul>",
+      "date": "2016-03-14",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Pandas v0.18.0"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://rud.is/b/2016/03/16/supreme-annotations/\">Cet article de blog</a> montre comment exploiter les nouvelles fonctionnalit\u00e9s de ggplot2 pour cr\u00e9er de meilleures annotations sur un graphique. En particulier est d\u00e9crit\u00a0: </p><ul><li>cr\u00e9ation de titre / sous titre</li><li>cr\u00e9ation de note de \u00ab\u00a0bas de page\u00a0\u00bb</li><li>cr\u00e9ation d\u2019annotations pour des points du graphique.</li></ul><p>Voici l\u2019exemple g\u00e9n\u00e9r\u00e9 dans ce tutoriel\u00a0:</p><p><img alt=\"http://rud.is/dl/supremes.png\" src=\"location/in/app\" /></p>",
+      "date": "2016-03-29",
+      "images": [],
+      "tags": [],
+      "title": "Meilleures annotations de graphiques en R"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://arxiv.org/abs/1603.05279\">Cet article de revue</a> pr\u00e9sente des r\u00e9sultats d\u2019approximations de r\u00e9seaux de neurones convolutionnels. Dans cette approximation, \u00e0 la fois les donn\u00e9es d\u2019entr\u00e9e et les poids du r\u00e9seau sont consid\u00e9r\u00e9 comme binaires. Les calculs de multiplication et d\u2019addition sont remplac\u00e9s par des op\u00e9rations binaires. Toutes ces approximations r\u00e9sultent en\u00a0:</p><ul><li>m\u00e9moire n\u00e9cessaire divis\u00e9e par 32</li><li>temps de calcul (sur CPU) divis\u00e9 par 58</li></ul><p>Pour rappel, <a href=\"http://arxiv.org/abs/1602.02830\">un autre article de revue</a> d\u00e9crivant une approximation similaire a \u00e9t\u00e9 \u00e9voqu\u00e9 dans la Gazette du 29 F\u00e9vrier.</p>",
+      "date": "2016-03-29",
+      "images": [],
+      "tags": [],
+      "title": "XNOR-Networks\u00a0: des r\u00e9seaux convolutionnels rapides"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://www.machinalis.com/blog/python-for-geospatial-data-processing/\">Cet article de blog</a> (<a href=\"https://github.com/machinalis/satimg/blob/master/classify.py\">github</a> correspondant) fait la d\u00e9monstration d\u2019une classification d\u2019images satellitaires. Typiquement cette classification peut \u00eatre utile dans le domaine de l\u2019agriculture. L\u2019article explique succinctement comment manipuler des donn\u00e9es g\u00e9o spatiales (images satellite + repr\u00e9sentation vectorielles Shapefile) \u00e0 l\u2019aide de la librairie <a href=\"http://gdal.org/\">GDAL</a>.</p><p><img alt=\"http://www.machinalis.com/static/media/uploads/input-output.jpg\" src=\"location/in/app\" /></p>",
+      "date": "2016-03-29",
+      "images": [],
+      "tags": [],
+      "title": "Classification d\u2019images satellite en Python"
+   },
+   {
+      "rawhtml": "<p>PyData vient de rendre publique une <a href=\"https://www.youtube.com/playlist?list=PLGVZCDnMOq0rzDLHi5WxWmN5vueHU5Ar7\">s\u00e9rie de vid\u00e9os</a> correspondant \u00e0 leur r\u00e9cente conf\u00e9rence \u00e0 Amsterdam. Quelques exemples de sujets\u00a0:</p><ul><li><a href=\"https://www.youtube.com/watch?v=GFcFNccbDM8&amp;list=PLGVZCDnMOq0rzDLHi5WxWmN5vueHU5Ar7&amp;index=25\">Realtime Bayesian A-B testing with Spark Streaming</a></li><li><a href=\"https://www.youtube.com/watch?v=48WchucU8UY&amp;list=PLGVZCDnMOq0rzDLHi5WxWmN5vueHU5Ar7&amp;index=6\">From Data Science to Production - deploy, scale, enjoy!</a></li><li><a href=\"https://www.youtube.com/watch?v=XdksDmNsZ1Q&amp;list=PLGVZCDnMOq0rzDLHi5WxWmN5vueHU5Ar7&amp;index=13\">Store and manage data effortlessly with HDF5</a></li><li><a href=\"https://www.youtube.com/watch?v=YtsrshRAIRs&amp;list=PLGVZCDnMOq0rzDLHi5WxWmN5vueHU5Ar7&amp;index=19\">Using random search for efficient hyper-parameters optimization with H2O</a></li></ul>",
+      "date": "2016-03-29",
+      "images": [],
+      "tags": [],
+      "title": "PyData Videos"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://github.com/dodger487/dplython\">Ce repository</a> fournit une librairie Python qui permet d\u2019utiliser la syntaxe de Dplyr (le package R de manipulation de donn\u00e9es) sur des Dataframes Pandas. Personne n\u2019en voulait mais maintenant \u00e7a existe\u00a0!</p>",
+      "date": "2016-03-29",
+      "images": [],
+      "tags": [],
+      "title": "Enfin un pont entre deux communaut\u00e9s : Dplyr pour Python"
+   },
+   {
+      "rawhtml": "<p>Il ne s\u2019agit pas vraiment d\u2019un article technique, mais plut\u00f4t m\u00e9thodologique de la part de AirBnb. Dans <a href=\"https://medium.com/airbnb-engineering/scaling-knowledge-at-airbnb-875d73eff091\">cet article</a>, ils expliquent comment ils organisent la R&amp;D interne sous la forme de repositories qui permettent de reproduire des r\u00e9sultats pass\u00e9s. L\u2019article manque de d\u00e9tails mais c\u2019est peut \u00eatre une id\u00e9e qui peut nous inspirer.</p>",
+      "date": "2016-03-29",
+      "images": [],
+      "tags": [],
+      "title": "Id\u00e9e\u00a0de m\u00e9thodologie: Knowledge Repository"
+   },
+   {
+      "rawhtml": "<p>Le livre est actuellement <a href=\"http://www.deeplearningbook.org/\">publi\u00e9 en ligne</a> (pas dans le format le plus pratique d\u2019utilisation).  Il a l\u2019air de contenir des informations sur les d\u00e9veloppements r\u00e9cents dans la th\u00e9matique des r\u00e9seaux de neurones. Voici la liste des topics\u00a0:</p>",
+      "date": "2016-04-11",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Nouveau livre de r\u00e9f\u00e9rence\u00a0sur le Deep Learning"
+   },
+   {
+      "rawhtml": "<p>Le <a href=\"https://fr.coursera.org/learn/machine-learning\">cours de Andrew Ng sur Coursera</a> est <em>de facto</em> un point d\u2019entr\u00e9e pour beaucoup dans le monde de l\u2019apprentissage artificiel. Les exercices sont par contre en Matlab / Octave qui ne sont pas toujours nos langages de pr\u00e9dilection. Quelqu\u2019un a \u00e9crit toutes les solutions sous la forme de Notebooks Python, <a href=\"https://github.com/kaleko/CourseraML\">voici le repository</a>. </p>",
+      "date": "2016-04-11",
+      "images": [],
+      "tags": [],
+      "title": "Introduction en Machine Learning\u00a0(Andrew Ng) \u2013 Solutions en Python"
+   },
+   {
+      "rawhtml": "<p>Pendant un projet le code utilise de nombreux fichiers qui peuvent \u00eatre r\u00e9partis un peu partout dans le syst\u00e8me de fichier de la machine (si QBox) ou de plusieurs machines. S\u2019assurer que tous les fichiers sont accessibles quand on livre la version finale de l\u2019application produite peut s\u2019av\u00e9rer difficile. Une solution possible est d\u2019utiliser le package <a href=\"http://docs.pyfilesystem.org/en/latest/introduction.html\">PyFileSystem</a> qui cr\u00e9er une interface entre un syst\u00e8me de fichier r\u00e9el et un syst\u00e8me de fichier virtuel compris par l\u2019application. Voir <a href=\"https://www.willmcgugan.com/blog/tech/post/creating-a-virtual-filesystem-with-python-and-why-you-need-one/\">ici pour un rapide article</a> d\u2019introduction. </p>",
+      "date": "2016-04-11",
+      "images": [],
+      "tags": [],
+      "title": "Un syst\u00e8me de fichiers virtuel en Python"
+   },
+   {
+      "rawhtml": "<p>Xavier a r\u00e9cemment tenu un journal-club concernant la s\u00e9lection de variables. Un groupe de recherche a publi\u00e9 un ensemble d\u2019algorithmes permettant de faire cette s\u00e9lection. Leur travail est suppos\u00e9 s\u2019interfacer simplement avec sklearn. Attention c\u2019est pour python 2.7.  Vous trouverez <a href=\"http://featureselection.asu.edu/algorithms.php\">ici une liste d\u2019algorithmes</a> et l\u00e0 <a href=\"https://github.com/jundongl/scikit-feature\">le package sur github</a> (pas de pip install). </p>",
+      "date": "2016-04-11",
+      "images": [],
+      "tags": [],
+      "title": "S\u00e9lection de variables en Python"
+   },
+   {
+      "rawhtml": "<p>Des chercheurs de l\u2019universit\u00e9 de Californie ont <a href=\"http://www.nature.com/articles/srep21471\">r\u00e9cemment publi\u00e9 un article dans Nature</a> dans lequel ils expliquent le syst\u00e8me de microscopie qu\u2019ils ont d\u00e9velopp\u00e9 pour la d\u00e9tection de cellules canc\u00e9reuses. Si on r\u00e9sume, voici ce que fait leur syst\u00e8me\u00a0:</p><ul><li>Capture d\u2019image complexe avec un syst\u00e8me de microscopie ad hoc (permet par exemple de mesurer le d\u00e9calage en phase de la lumi\u00e8re qui passe \u00e0 travers la cellule)</li><li>Cr\u00e9ation de features \u00e0 partir de l\u2019image\u00a0: taille de la cellule, indice optique, circularit\u00e9\u2026</li><li>Utilisation d\u2019un r\u00e9seau de neurones entrain\u00e9 pour faire la classification entre diff\u00e9rentes cat\u00e9gories de cellules</li></ul><p>Bien que \u00e7a ne soit pas directement en lien avec l\u2019article de recherche, je vous propose \u00e9galement la lecture de <a href=\"https://egtheory.wordpress.com/2016/04/21/automicroscopy/\">cet article de blog</a>. L\u2019auteur donne une introduction \u00e0 l\u2019analyse d\u2019images microscopique en Python (librairie OpenCV). </p>",
+      "date": "2016-04-25",
+      "images": [
+         "location/in/app",
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Microscopie + Machine Learning pour d\u00e9tecter des cellules canc\u00e9reuses"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://amunategui.github.io/anomaly-detection-h2o/index.html\">Ce tutoriel contient</a> un code source complet en R sur l\u2019utilisation d\u2019auto-encodeurs pour la d\u00e9tection d\u2019outliers. L\u2019article compare les performances de l\u2019auto-encodeur \u00e0 une for\u00eat al\u00e9atoire. Les auto-encodeurs sont cr\u00e9e avec le model deeplearning de H2O. </p>",
+      "date": "2016-04-25",
+      "images": [],
+      "tags": [],
+      "title": "D\u00e9tections d\u2019anomalies avec des auto-encodeurs (R + H2O)"
+   },
+   {
+      "rawhtml": "<p>Merci \u00e0 Yannick de partager <a href=\"http://blog.datadive.net/prediction-intervals-for-random-forests/\">cet article de blog</a> qui montre comment calculer un intervalle de confiance quand on utilise des for\u00eats al\u00e9atoires pour faire une r\u00e9gression. Grosso modo l\u2019id\u00e9e est simple\u00a0: utiliser beaucoup d\u2019arbres dans la for\u00eat et regarder la distribution des r\u00e9ponses de ces diff\u00e9rents arbres. Attention \u00e0 faire la cross-validation de ces intervalles de confiance\u00a0!  Quelques exemples de code en Python. (Je suis personnellement un peu dubitatif sur la m\u00e9thodologie \u2026 \u00e0 tester).</p>",
+      "date": "2016-04-25",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Intervalles de confiance pour des r\u00e9gressions par for\u00eats al\u00e9atoires"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://multithreaded.stitchfix.com/blog/2016/04/21/forget-arima/\">Cet article de Stitchfix</a> fait la recommandation d\u2019utiliser des mod\u00e8les Bay\u00e9siens pour analyser des s\u00e9ries temporelles. Les avantages principaux sont la transparence du mod\u00e8le, la possibilit\u00e9 de calculer des intervalles de confiance pour la pr\u00e9diction et la capacit\u00e9 d\u2019int\u00e9grer des informations connues a priori (par le m\u00e9tier en g\u00e9n\u00e9ral). </p><p>L\u2019article contient des exemples en R qui utilisent le <a href=\"http://rpackages.ianhowson.com/cran/bsts/\">package bsts</a>. Pour info ce package est utilis\u00e9 par <a href=\"http://www.r-bloggers.com/causalimpact-a-new-open-source-package-for-estimating-causal-effects-in-time-series/\">CausalImpact</a> qui permet de rechercher des effets causaux dans des s\u00e9ries temporelles.  Il y a \u00e9galement une comparaison avec des r\u00e9sultats obtenus avec ARIMA. </p>",
+      "date": "2016-04-25",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Bayesian Structural Time Series"
+   },
+   {
+      "rawhtml": "<p>Le sujet de la visualisation d\u2019un jeu de donn\u00e9es qui poss\u00e8de un tr\u00e8s grand nombre de features a \u00e9t\u00e9 r\u00e9cemment abord\u00e9 sur #veille-ML. De mani\u00e8re g\u00e9n\u00e9rale, on va utiliser un algorithme de r\u00e9duction de dimension (typiquement 2) et on va repr\u00e9senter le jeu de donn\u00e9es dans ce nouvel espace. Voici quelques \u00e9l\u00e9ments pour d\u00e9marrer l\u2019investigation du sujet\u00a0:</p><ul><li>Les premi\u00e8res m\u00e9thodes qui sont mentionn\u00e9es sont lin\u00e9aires\u00a0: Principal Component Analysis, Linear Discriminent Analysis. Ces m\u00e9thodes on l\u2019avantage d\u2019\u00eatre rapides mais peuvent rater des informations complexes (non lin\u00e9aires) dans les donn\u00e9es.</li><li>Manifold Learning (<a href=\"http://scikit-learn.org/stable/modules/manifold.html\">voir sur sklearn</a>) est un ensemble de m\u00e9thodes non supervis\u00e9es qui g\u00e9n\u00e9ralisent la r\u00e9duction de dimension dans une approche non-lin\u00e9aire. Parmi celles-ci, <a href=\"http://scikit-learn.org/stable/modules/manifold.html\">t-distributed Stochastic Neighbor Embedding</a> semble \u00eatre ce qui est souvent recommand\u00e9.</li><li><a href=\"https://arxiv.org/abs/1602.00370\">Cet article de recherche</a> r\u00e9cent propose une m\u00e9thode de repr\u00e9sentation du jeu de donn\u00e9es (LargeVis) qui consiste \u00e0 calculer un graph des k plus proches voisins et repr\u00e9senter ce graph. Il semblerait que cette m\u00e9thode soit plus rapide que t-SNE pour des grands jeux de donn\u00e9es. Vous <a href=\"https://sites.google.com/site/pkujiantang/big-data-visualization\">trouverez ici</a> quelques slides et (prochainement) le code correspondant. </li></ul>",
+      "date": "2016-05-09",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Visualiser des donn\u00e9es multidimensionnelles"
+   },
+   {
+      "rawhtml": "<p>Python fournit la librarie <a href=\"https://docs.python.org/3.5/library/multiprocessing.html\">multiprocessing</a> qui permet de tirer profit des nombreux c\u0153urs des processeurs de nos QBox pr\u00e9f\u00e9r\u00e9es. Cependant il peut \u00eatre un peu lourd d\u2019\u00e9crire le code pour en tirer partie\u00a0: il faut manuellement g\u00e9rer une Pool de processes, v\u00e9rifier l\u2019acc\u00e8s de chaque process \u00e0 un objet de donn\u00e9es commun.. La <a href=\"http://alex.vector57.net/deco/\">librairie DECO</a> propose deux d\u00e9corateurs qui semblent suffisant pour g\u00e9rer toutes ces complications<a href=\"https://drive.google.com/file/d/0B_olmC0u8E3gWTBmN3pydGxHdEE/view\">. Voir ici</a> pour un article qui explique la d\u00e9marche utilis\u00e9e. Passer \u00e0 plusieurs c\u0153urs en <strong>2 lignes de codes</strong> c\u2019est tentant, non\u00a0?</p>",
+      "date": "2016-05-09",
+      "images": [],
+      "tags": [],
+      "title": "Python\u00a0: Multiprocessing made easy"
+   },
+   {
+      "rawhtml": "<p>Bonne nouvelle\u00a0! O\u2019Reilly \u00e9tend sa collection d\u2019ouvrage de r\u00e9f\u00e9rence. Pas encore parus, mais gardez-leur une place dans la biblioth\u00e8que\u00a0!</p><br /></p>",
+      "date": "2016-05-09",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Nouveaux livres de Machine Learning / Statistiques"
+   },
+   {
+      "rawhtml": "<p>Voici deux articles qui montrent des exemples d\u2019utilisation de la librairie de r\u00e9seaux de neurones de Google\u00a0:</p><ul><li><a href=\"http://matthewearl.github.io/2016/05/06/cnn-anpr/\">Le premier</a> prend pour exemple l\u2019identification de la plaque d\u2019immatriculation \u00e0 partir de photos. Il s\u2019appuie pour cela sur <a href=\"http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42241.pdf\">l\u2019article de Google</a> sur l\u2019identification des num\u00e9ros de maison de StreetView. L\u2019auteur propose une m\u00e9thode int\u00e9ressante pour g\u00e9n\u00e9rer automatiquement des images qui servent \u00e0 entra\u00eener le mod\u00e8le.</li><li><a href=\"http://danijar.github.io/introduction-to-recurrent-networks-in-tensorflow\">Le deuxi\u00e8me</a> est plus succinct\u00a0; il s\u2019agit d\u2019un exemple de classification de s\u00e9quences en utilisant des r\u00e9seaux r\u00e9currents, en particulier des Long Term Short Memory (LSTM). <a href=\"http://colah.github.io/posts/2015-08-Understanding-LSTMs/\">Voir ici pour un article</a> qui explique simplement ce que sont les r\u00e9seaux LSTM.</li></ul>",
+      "date": "2016-05-09",
+      "images": [],
+      "tags": [],
+      "title": "Exemples d\u2019utilisation de TensorFlow"
+   },
+   {
+      "rawhtml": "<p>La d\u00e9tection de \u00ab\u00a0Topic\u00a0\u00bb est utile dans l\u2019analyse de texte car cela permet de synth\u00e9tiser des documents textuels dans un espace \u00e0 peu de dimension. En python, la <a href=\"https://radimrehurek.com/gensim/wiki.html\">librairie Gensim</a> permet de mettre en place facilement ce genre d\u2019analyse. Une m\u00e9thode fr\u00e9quemment utilis\u00e9e est la Latent Dirichlet Analysis (LDA).</p><p>Les topics sont en g\u00e9n\u00e9ral appris une fois (sur une partie du corpus) et les nouveaux documents analys\u00e9s sont projet\u00e9s dans cet espace. On peut se poser la question de la d\u00e9viation dans le temps des topics. Est ce que chaque sujet reste pertinents dans le temps\u00a0? De m\u00eame comment faire pour apprendre les topics sur deux sous-ensembles distincts du corpus\u00a0? C\u2019est \u00e0 ce genre de questions qu\u2019essaie de r\u00e9pondre <a href=\"http://www.hpl.hp.com/techreports/2010/HPL-2010-158.pdf\">cet article de recherche</a>.</p>",
+      "date": "2016-06-06",
+      "images": [],
+      "tags": [],
+      "title": "Topic Modeling\u00a0 Ensembles"
+   },
+   {
+      "rawhtml": "<p>Dans <a href=\"http://multithreaded.stitchfix.com/blog/2016/05/27/lda2vec/\">cet article</a>, une m\u00e9thode est pr\u00e9sent\u00e9e qui est d\u00e9crite comme interm\u00e9diaire entre LDA et word2vec. Leur argumentaire est que\u00a0:</p><ul><li>LDA\u00a0: bien pour permettre \u00e0 un humain d\u2019interpr\u00e9ter un corpus non labellis\u00e9</li><li>Word2vec\u00a0: bien pour permettre \u00e0 un algorithme de faire des pr\u00e9dictions</li></ul><p>La solution propos\u00e9e pioche un peu dans les deux mondes. En plus de l\u2019article de vulgarisation, il y a un <a href=\"https://arxiv.org/abs/1605.02019\">article de recherche</a>, du <a href=\"https://github.com/cemoody/lda2vec\">code sur github</a> et de la <a href=\"http://lda2vec.readthedocs.io/en/latest/\">documentation</a>. </p>",
+      "date": "2016-06-06",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Topic Modeling\u00a0: mixing LDA and word2Vec"
+   },
+   {
+      "rawhtml": "<p>Dans l\u2019utilisation classique de Word2Vec, on est sensible \u00e0 la polys\u00e9mie : un m\u00eame mot peut avoir plusieurs significations diff\u00e9rentes. Sens2Vec cherche \u00e0 palier \u00e0 ce manquement. <a href=\"https://spacy.io/blog/sense2vec-with-spacy\">Cet article</a> montre un exemple d\u2019utilisation. Voici <a href=\"http://arxiv.org/abs/1511.06388\">un article de recherche</a> pr\u00e9sentant la d\u00e9marche. Word2Vec fait partie de <a href=\"https://spacy.io/\">spaCy qui est une librairie python pour le Traitement du Langage Naturel</a>. A explorer\u00a0: ils se vantent de tr\u00e8s bonnes performances\u00a0!</p>",
+      "date": "2016-06-06",
+      "images": [],
+      "tags": [],
+      "title": "Sense2Vec\u00a0: plus fin que Word2Vec"
+   },
+   {
+      "rawhtml": "<p>Dans l\u2019id\u00e9e de rendre nos codes plus \u00ab\u00a0industriels\u00a0\u00bb, il est important d\u2019adopter des conventions en terme de <strong>logging</strong>. Voici <a href=\"http://victorlin.me/posts/2012/08/26/good-logging-practice-in-python\">un article</a> qui donne quelques conseils sur les outils et les configurations \u00e0 utiliser.</p>",
+      "date": "2016-06-06",
+      "images": [],
+      "tags": [],
+      "title": "Utilisation d\u2019un syst\u00e8me de log plut\u00f4t que du print()"
+   },
+   {
+      "rawhtml": "<p>Je ne sais pas si c\u2019est un vrai probl\u00e9matique pour nous\u2026 Mais peut \u00eatre que certains consultants ont d\u00e9j\u00e0 mis en place des architectures de r\u00e9seaux de neurones avec Theano et pas Tensorflow. <a href=\"https://medium.com/@sentimentron/faceoff-theano-vs-tensorflow-e25648c31800\">Cet article donne quelques conseils</a> pour passer du premier au deuxi\u00e8me. \u00c7a peut servir de tutoriel dans tous les cas. L\u2019exemple consid\u00e9r\u00e9 est le tagging de s\u00e9quences textuels (traitement lettre par lettre et couches LSTM Long Short Term Memory).</p>",
+      "date": "2016-06-06",
+      "images": [],
+      "tags": [],
+      "title": "Passer de Theano \u00e0 TensorFlow"
+   },
+   {
+      "rawhtml": "<p>Le Notebook continue \u00e0 \u00eatre un outil beaucoup utilis\u00e9 et son d\u00e9veloppement est toujours actif. La prochaine version sera le <a href=\"http://blog.jupyter.org/2016/07/14/jupyter-lab-alpha/\">Jupyter Lab</a> qui est actuellement en version alpha. Cette version ressemblera davantage \u00e0 un environnement de d\u00e9veloppement complet. C\u2019est Long qui va \u00eatre content\u00a0! </p>",
+      "date": "2016-07-18",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Ipython -&gt; Jupyter Notebook -&gt; Jupyter Lab\u00a0!"
+   },
+   {
+      "rawhtml": "<p>Vous avez dej\u00e0 peut \u00eatre utilis\u00e9 la librairie <a href=\"https://github.com/scrapy/scrapely\">Scrapy</a> (Scrapely\u00a0?) pour extraire des informations automatiquement de nombreuses pages Web. <a href=\"https://blog.scrapinghub.com/2016/07/07/scrapely-the-brains-behind-portia-spiders/\">Portia</a> est un outil qui permet de configurer un scraper visuellement. Il faut s\u2019inscrire pour utiliser une version d\u00e9j\u00e0 install\u00e9e, mais on peut l\u2019installer soi-m\u00eame, c\u2019est un projet <a href=\"https://github.com/scrapinghub/portia\">open-source</a>. </p>",
+      "date": "2016-07-18",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Web Scraping"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://jcrist.github.io/dask-sklearn-part-1.html\">Cet article de blog</a> prend un cas d\u2019application standard de la parall\u00e9lisation de mod\u00e8les\u00a0: le GridSearch. La gestion du parall\u00e9lisme d\u2019appuie sur <a href=\"http://dask.pydata.org/en/latest/\">Dask</a>, un librairie qui cr\u00e9\u00e9 des graphes de calculs et les optimise avant de lancer ces calculs de mani\u00e8re parall\u00e9lis\u00e9e (voire distribu\u00e9e). Dask fait partie de l\u2019\u00e9cosyst\u00e8me <a href=\"http://blaze.pydata.org/\">Blaze</a>. </p>",
+      "date": "2016-07-18",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Apprentissage en parall\u00e8le"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://www.rage.net/~greg/2016-07-05-ActorCritic-with-OpenAI-Gym.html\">Cet article de blog</a> montre un exemple d\u2019apprentissage par renforcement. L\u2019artillerie lourde est Keras mais l\u2019auteur utilise pour \u00e9valuer ses mod\u00e8les une librairie sp\u00e9cifique \u00e0 l\u2019apprentissage par renforcement\u00a0: <a href=\"https://gym.openai.com/docs\">OpenAI Gym</a>. </p><p>Pour un tutoriel plus complet, vous pouvez \u00e9galement consulter <a href=\"http://outlace.com/Reinforcement-Learning-Part-1/\">cet article</a>, et si c\u2019est un bouquin qui vous int\u00e9resse, <a href=\"https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html\">Reinforcement Learning, An Introduction (Sutton, 1998</a>) est disponible en ligne. </p>",
+      "date": "2016-07-18",
+      "images": [],
+      "tags": [],
+      "title": "Apprentissage par renforcement"
+   },
+   {
+      "rawhtml": "<p>La librairie <a href=\"https://github.com/RJT1990/pyflux\">PyFlux</a> est sp\u00e9cialis\u00e9e dans l\u2019analyse et la pr\u00e9diction de s\u00e9ries temporelle. Elle met \u00e0 disposition un certain nombre de mod\u00e8les au noms impronon\u00e7ables\u00a0:</p><ul><li>ARIMA</li><li>GARCH / EGARCH</li><li>GAS model</li><li>VAR model</li></ul>",
+      "date": "2016-08-16",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Librairie Python\u00a0: S\u00e9ries temporelles"
+   },
+   {
+      "rawhtml": "<p>Apr\u00e8s Theano, Tensor Flow, Keras, Lasagne, Caffe vous trouvez s\u00fbrement qu\u2019il vous manque encore une librairie d\u2019apprentissage profond\u00a0! Ne paniquez plus il existe \u00e9galement <a href=\"https://github.com/nervanasystems/neon\">Neon</a> publi\u00e9 par Nervana (Nervana fournit une plateforme de machine learning et vient d\u2019\u00eatre achet\u00e9 300 Millions par Intel.. leur librairie ne doit pas \u00eatre mauvaise quand m\u00eame).</p>",
+      "date": "2016-08-16",
+      "images": [],
+      "tags": [],
+      "title": "Librairie Python\u00a0: Encore du Deep Learning"
+   },
+   {
+      "rawhtml": "<p>Asyncpg est un driver Python pour PostgreSQL qui s\u2019appuie sur le framework <a href=\"https://docs.python.org/3/library/asyncio.html\">asyncio</a> (qui fait partie de la librairie standard pour l\u2019instant). Les d\u00e9veloppeurs de la librairie promettent des performances de comp\u00e9tition. Voir <a href=\"https://github.com/magicstack/asyncpg\">ici pour le github</a> et <a href=\"https://magic.io/blog/asyncpg-1m-rows-from-postgres-to-python/\">l\u00e0 pour un article</a> qui d\u00e9crit l\u2019int\u00e9r\u00eat de la librairie. </p>",
+      "date": "2016-08-16",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Librairie Python\u00a0: Un driver pour PostgreSQL"
+   },
+   {
+      "rawhtml": "<p>Voici trois articles / tutoriels qui peuvent \u00eatre int\u00e9ressants. </p><ul><li><a href=\"http://noamelf.com/2016/08/05/designing-pythonic-apis/\">Cr\u00e9ation d\u2019une API agr\u00e9able \u00e0 utiliser</a>. Cet article compare deux librairies python (urllib et requests) pour mettre en \u00e9vidence comment le design r\u00e9fl\u00e9chi de la librairie peut am\u00e9liorer son ergonomie. </li><li><a href=\"http://blog.yhat.com/posts/estimating-user-lifetimes-with-pymc.html\">Analyse de Survie.</a> Cet article illustre de mani\u00e8re claire quelques erreurs \u00e0 \u00e9viter lorsqu\u2019on fait une analyse de survie (notamment la notion de censure). </li><li><a href=\"http://adilmoujahid.com/posts/2016/08/interactive-data-visualization-geospatial-d3-dc-leaflet-python/\">Construction d\u2019une application web avec graphiques et cartographie.</a> Le totoriel est un peu rapide mais l\u2019auteur pointe vers deux applications exemples qu\u2019il a r\u00e9alis\u00e9. Je choisi celui-ci car c\u2019est assez proche des choix que nous avons fait \u00e0 la SNCF pour le d\u00e9veloppement d\u2019une appli web.</li></ul>",
+      "date": "2016-08-16",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Tutoriels Vari\u00e9s"
+   },
+   {
+      "rawhtml": "<p>EtaLab met \u00e0 disposition un jeu de donn\u00e9 permettant de faire la correspondance entre une adresse postale et un localisation g\u00e9ographique. Le dataset contient <strong>25 Millions d\u2019adresses en France</strong> et dispose m\u00eame d\u2019une <a href=\"http://adresse.data.gouv.fr/api/\">API</a> si vous souhaitez requ\u00eater quelques adresses. <a href=\"http://adresse.data.gouv.fr/\">Site pour demander les donn\u00e9es.</a> <a href=\"https://www.data.gouv.fr/fr/datasets/ban-base-adresse-nationale/\">Liens vers la documentation</a>. </p>",
+      "date": "2016-08-29",
+      "images": [],
+      "tags": [],
+      "title": "Base Adresse Nationale"
+   },
+   {
+      "rawhtml": "<p>Le scraping d\u2019un site est parfois un bon moyen de r\u00e9cup\u00e9rer des donn\u00e9es. Il faut cependant \u00eatre vigilent \u00e0 ne pas perturber l\u2019activit\u00e9 du site. Voici <a href=\"https://blog.scrapinghub.com/2016/08/25/how-to-crawl-the-web-politely-with-scrapy/\">quelques r\u00e8gles de politesses</a> (impl\u00e9ment\u00e9es avec Scrapy)\u00a0:</p><ul><li>Respecter le robot.txt</li><li>Limiter les requ\u00eates</li><li>Fournir son identit\u00e9</li></ul>",
+      "date": "2016-08-29",
+      "images": [],
+      "tags": [],
+      "title": "Web Scraping\u00a0: Quelques r\u00e8gles \u00e0 respecter"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://arxiv.org/pdf/1509.02971v2.pdf\">Cet article pr\u00e9sente</a> une m\u00e9thode d\u2019apprentissage par renforcement qui utilise un r\u00e9seau de neurones profond. L\u2019\u00e9volution par <a href=\"http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html\">rapport aux pr\u00e9c\u00e9dentes versions</a> est d\u2019\u00eatre appliqu\u00e9 \u00e0 un espace des actions continu. Par exemple pour la conduire une voiture, l\u2019algorithme peut faire l\u2019apprentissage de \u00ab\u00a0acc\u00e9l\u00e9ration \u00e0 x %\u00a0\u00bb et pas seulement \u00ab\u00a0acc\u00e9l\u00e9ration Oui/Non\u00a0\u00bb. Voir <a href=\"http://pemami4911.github.io/blog_posts/2016/08/21/ddpg-rl.html\">ici pour une version plus abordable</a> de l\u2019article et des exemples (tensorFlow)</p>",
+      "date": "2016-08-29",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Deep Deterministic Policy Gradients"
+   },
+   {
+      "rawhtml": "<p> <a href=\"https://vega.github.io/\">Vega</a> est une grammaire de visualisation de donn\u00e9es. Les graphiques sont d\u00e9crits par un dictionnaire (similaire \u00e0 Plotly) d\u00e9crivant \u00e0 bas niveau ce que contient le graphique. L\u2019affichage des graphiques est a priori r\u00e9alis\u00e9 par D3.js.</p><p><a href=\"https://vega.github.io/vega-lite/\">Vega-Lite</a> s\u2019appuie sur Vega et est plus haut niveau, plus simple \u00e0 utiliser. Le tradeoff est une perte de g\u00e9n\u00e9ralit\u00e9 (tous les graphiques ne peuvent pas \u00eatre repr\u00e9sent\u00e9 par Vega-Lite). </p><p><a href=\"https://github.com/ellisonbg/altair\">Altair</a> est une librairie Python qui permet de g\u00e9n\u00e9rer une description de graphique Vega-Lite. L\u2019utilisation est tr\u00e8s simple (un peu similaire \u00e0 ggplot2). (<a href=\"https://www.youtube.com/watch?v=aRxahWy-ul8\">Vid\u00e9o de pr\u00e9sentation de Altair</a> \u00e0 la derni\u00e8re PyData)</p><p>L\u2019\u00e9quipe de Vega a \u00e9galement r\u00e9alis\u00e9 trois applications qui permettent de cr\u00e9er des visualisations\u00a0:</p><ul><li><a href=\"https://idl.cs.washington.edu/projects/lyra/\">Lyra</a> pour cr\u00e9er des visualisation complexes</li><li><a href=\"http://vega.github.io/polestar/\">Polestar</a> pour des choses simples (Altair est dans ce cas plus pratique d\u2019utilisation il me semble)</li><li><a href=\"http://vega.github.io/voyager/\">Voyager</a> qui fournit des suggestions de visualisations. Peut \u00eatre int\u00e9ressant \u00e0 utiliser dans la phase d\u2019exploration des donn\u00e9es. </li></ul>",
+      "date": "2016-08-29",
+      "images": [],
+      "tags": [],
+      "title": "Visualisation avec la stack Vega"
+   },
+   {
+      "rawhtml": "<p>Facebook vient de rendre open source deux algorithmes qu\u2019ils utilisent pour faire de la d\u00e9tection d\u2019objets dans des images\u00a0: <a href=\"http://arxiv.org/abs/1506.06204\">DeepMask</a> et <a href=\"http://arxiv.org/abs/1603.08695\">SharpMask</a>. Le <a href=\"https://github.com/facebookresearch/deepmask\">repository est sur github</a>. Ils fournissent une version <strong>d\u00e9j\u00e0 entrain\u00e9e</strong> de l\u2019algorithme. Attention par contre il ne s\u2019agit pas d\u2019attribuer une classe aux objets mais simplement <strong>de d\u00e9tecter leurs contours</strong>.</p>",
+      "date": "2016-09-12",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Facebook\u00a0: DeepMask + SharpMask"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://distill.pub/2016/augmented-rnns/\">Un bon article de blog</a> qui parle de techniques avanc\u00e9es d\u2019utilisations des RNN. Je ne suis pas s\u00fbr que ces techniques soient facilement exploitables dans ce qu\u2019on fait mais \u00e7a peut \u00eatre int\u00e9ressant. ",
+      "date": "2016-09-12",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Architectures avanc\u00e9s de r\u00e9seaux r\u00e9currents"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://opennex.planetos.com/gddp\">Un outil en ligne</a> qui permet d\u2019acc\u00e9der \u00e0 une ressource incroyable\u00a0: des donn\u00e9es climatiques g\u00e9olocalis\u00e9es \u00e0 une <strong>r\u00e9solution de 25 km depuis 1950 partout dans le monde</strong>\u00a0! Voir plus <a href=\"https://planetos.com/blog/opennex-climate-data-access-tool/?utm_source=twitter&amp;utm_medium=tweet&amp;utm_campaign=20160901-opennex\">d\u2019informations sur ce site</a>. Par contre j\u2019ai l\u2019impression qu\u2019on ne t\u00e9l\u00e9charge pas directement les donn\u00e9es mais un Docker qui contient les donn\u00e9es.. A voir. J\u2019ai l\u2019impression que les donn\u00e9es contiennent \u00e9galement <strong>des pr\u00e9dictions climatiques</strong> sur les prochaines ann\u00e9es. </p>",
+      "date": "2016-09-12",
+      "images": [],
+      "tags": [],
+      "title": "DataSet\u00a0: climat mondial"
+   },
+   {
+      "rawhtml": "<p>Deux articles de blog qui peuvent \u00eatre utiles lors d\u2019une mise en production d\u2019une application Python complexe. Ces articles expliquent comment <a href=\"http://www.fullstackpython.com/blog/send-sms-text-messages-python.html\">envoyer des SMS</a> et faire des <a href=\"http://www.fullstackpython.com/blog/dial-outbound-phone-calls-python-bottle.html\">appels t\u00e9l\u00e9phoniques</a> depuis Python. Le service repose sur <a href=\"https://www.twilio.com/\">Twilio</a>. </p>",
+      "date": "2016-09-12",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "T\u00e9l\u00e9phoner en Python"
+   },
+   {
+      "rawhtml": "<p>Django et Flask sont les librairies de r\u00e9f\u00e9rence pour construire un back-end en Python. Pour \u00eatre clair \u00e7a permet de construire une page html qui d\u00e9pend de la requ\u00eate de l\u2019utilisateur\u00a0(ex\u00a0: la liste de produits d\u00e9tenus par un client sous la forme d\u2019une table HTML). Pour r\u00e9aliser une application avec beaucoup d\u2019interactivit\u00e9 (ex\u00a0: quand on clique sur un produit on a une courbe d\u2019\u00e9volution de la valeur de ce produit au cours du temps), on va g\u00e9n\u00e9ralement placer une partie du code dans le front-end\u00a0; a priori en Javascript.</p><p><a href=\"https://github.com/metaperl/python-oop/blob/master/README.md\">Certaines librairies Python</a> permettent de r\u00e9aliser des applications (<a href=\"https://github.com/thomasantony/flybywire\">simples</a>) avec un peu d\u2019int\u00e9ractivit\u00e9\u00a0: des sliders, s\u00e9lecteurs, etc sans avoir \u00e0 code en Javascript. La derni\u00e8re en date est <a href=\"https://github.com/thomasantony/flybywire\">flybywire</a>. Notons que <a href=\"http://bokeh.pydata.org/en/latest/docs/gallery.html\">bokeh</a> permet \u00e9galement de r\u00e9aliser des dashboards interactifs pour de la visualisation de donn\u00e9e. </p>",
+      "date": "2016-09-12",
+      "images": [],
+      "tags": [],
+      "title": "Python pour le front-end\u00a0?"
+   },
+   {
+      "rawhtml": "<p>Quelqu\u2019un est en train de construire un package R pour faciliter l\u2019int\u00e9gration de visualisations en D3.js. Voir <a href=\"http://www.buildingwidgets.com/blog/2016/8/28/why-d3r\">ici pour un article</a> qui explique ses motivations et l\u00e0 pour le <a href=\"https://github.com/timelyportfolio/d3r\">repository</a>.  </p>",
+      "date": "2016-09-12",
+      "images": [],
+      "tags": [],
+      "title": "Utilisation de D3.js en R"
+   },
+   {
+      "rawhtml": "<p>Avec un souvenir amer de l\u2019appel d\u2019offre Trace Wifi, voici quelques pistes si l\u2019occasion se repr\u00e9sente. Ces deux librairies permettent de g\u00e9olocaliser un t\u00e9l\u00e9phone mobile au sein d\u2019un b\u00e2timent contenant plusieurs \u00e9metteurs WiFi. Ils fonctionnent de mani\u00e8re supervis\u00e9e\u00a0: l\u2019algorithme apprend \u00e0 faire correspondre un vecteur de signaux dans l\u2019espace des \u00e9metteurs \u00e0 une pi\u00e8ce du b\u00e2timent. </p><ul><li><a href=\"CAZ_COMPATIBLE%20SOPHIA%20V2%20UNIQUEMENT_V3.0-F%C3%A9vrier2016_BENJAMIN_HABERT\">Find</a>, une librairie en Go mais avec de nombreuses informations</li><li><a href=\"https://github.com/kootenpv/whereami\">Whereami</a>, son \u00e9quivalent Python (mais tr\u00e8s succint)</li></ul>",
+      "date": "2016-09-27",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "WiFi Indoor Location"
+   },
+   {
+      "rawhtml": "<p>La librairie <a href=\"http://pomegranate.readthedocs.io/en/latest/\">Pomegranate</a> donne acc\u00e8s \u00e0 un certain nombre de m\u00e9thodes de mod\u00e9lisation probabiliste\u00a0:</p><ul><li>Naive Bayes</li><li>Hidden Markov Model</li><li>Bayesian Networks</li></ul><p>L\u2019auteur de la librairie a donn\u00e9 une <a href=\"https://www.youtube.com/watch?v=YBknijEiABA\">pr\u00e9sentation au dernier PyData</a> (Chicago, il y a quelques jours). </p>",
+      "date": "2016-09-27",
+      "images": [],
+      "tags": [],
+      "title": "Probabilistic Modeling en Python"
+   },
+   {
+      "rawhtml": "<p>L\u2019installation des frameworks de deep learning est toujours probl\u00e9matique, en particulier sur GPU. <a href=\"https://blogs.technet.microsoft.com/machinelearning/2016/09/15/building-deep-neural-networks-in-the-cloud-with-azure-gpu-vms-mxnet-and-microsoft-r-server/\">Cet article</a> est un ensemble d\u00e9taill\u00e9 d\u2019instructions pour l\u2019installation de MXNet sur Microsoft Azure avec utilisations de GPUs. </p>",
+      "date": "2016-09-27",
+      "images": [],
+      "tags": [],
+      "title": "Installation de MXNet"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://www.asimovinstitute.org/neural-network-zoo/\">Ce site</a> donne une br\u00eave description de nombreuses architectures typiques de r\u00e9seaux de neurones. Pratiques quand on a oubli\u00e9 la diff\u00e9rence entre une Liquid State Machine et une Extreme Learning Machine\u00a0!</p>",
+      "date": "2016-09-27",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Neural Network CheatSheet"
+   },
+   {
+      "rawhtml": "<p>L\u2019installation des packages de deep learning peut \u00eatre compliqu\u00e9e\u00a0; surtout pour la configuration de la carte graphique. Ce <a href=\"https://github.com/Miej/GoDeeper\">repository</a> explique comment utiliser une image d\u2019instance pr\u00e9-construite avec les bonnes configurations.   </p>",
+      "date": "2016-11-07",
+      "images": [],
+      "tags": [],
+      "title": "Instance Amazon pour du Deep Learning"
+   },
+   {
+      "rawhtml": "<p>Le <a href=\"https://github.com/blue-yonder/tsfresh\">module Python tsfresh</a> permet de construire facilement des features de s\u00e9ries temporelles. C\u2019est utile si l\u2019on veut utiliser les s\u00e9ries temporelles pour faire de la classification par exemple. Un s\u00e9rie est \u00ab\u00a0r\u00e9sum\u00e9e\u00a0\u00bb en un certains nombre de caract\u00e9ristiques et ce sont ces caract\u00e9ristiques qui deviennent les features du mod\u00e8le pr\u00e9dictif. </p>",
+      "date": "2016-11-07",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Construction de features pour des s\u00e9ries temporelles"
+   },
+   {
+      "rawhtml": "<p>Une closure est une fonction cr\u00e9\u00e9e en m\u00eame temps qu\u2019un contexte qui lui est sp\u00e9cifique. En g\u00e9n\u00e9rale on utilise une fonction qui g\u00e9n\u00e8re cette fonction avec son contexte sp\u00e9cifique. C\u2019est souvent utilis\u00e9 en Javascript pour les callbacks. Voici <a href=\"http://www.discoversdk.com/blog/closures-in-python-3\">un article</a> qui explique comment cr\u00e9er des closures en Python et quelles erreurs courantes sont \u00e0 \u00e9viter. </p>",
+      "date": "2016-11-07",
+      "images": [],
+      "tags": [],
+      "title": "Les closures en Python"
+   },
+   {
+      "rawhtml": "<p>Pour pr\u00e9parer le Journal Club d\u2019Aleksander, voici un <a href=\"http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833\">article</a> (<a href=\"http://journals.plos.org/ploscompbiol/article/asset?id=10.1371/journal.pcbi.1003833.PDF\">pdf</a>) qui fournit des r\u00e8gles simples \u00e0 suivre pour produire de meilleures figures scientifiques. Quelques exemples de points abord\u00e9s sont\u00a0: choix du message, utilisation de la couleur, adaptation au medium utilis\u00e9. </p><p>Figure 1: Parmis ces deux graphiques, lequel est adapt\u00e9 \u00e0 une publication \u00e9crite? \u00e0 une pr\u00e9sentation powerpoint ?</p>",
+      "date": "2016-11-07",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Visualisations\u00a0: 10 r\u00e8gles pour produire de meilleures figures"
+   },
+   {
+      "rawhtml": "<p>Imaginez une application qui repose sur deux composants : le premier fournit des sources de donn\u00e9es brutes et le deuxi\u00e8me fait des transformations sur ces donn\u00e9es. Dans le contexte d\u2019une application web, il est probable que la donn\u00e9e soit \u00e9chang\u00e9e entre ces deux composants via des requ\u00eates REST. Si l\u2019on souhaite r\u00e9aliser les traitements en Pandas, il faut trouver un moyen d\u2019envoyer et recevoir les DataFrames s\u00e9rialis\u00e9s. Cet <a href=\"http://www.machinalis.com/blog/pandas-django-rest-framework-bokeh/\">article</a> pr\u00e9sente un exemple\u00a0: la s\u00e9rialisation est faite avec le package <a href=\"https://github.com/abarto/pandas-drf-tools\">pandas-drf-tools</a>. Le code de l\u2019exemple est disponible <a href=\"https://github.com/abarto/pandas-drf-tools-test\">ici</a>. </p>",
+      "date": "2016-11-07",
+      "images": [],
+      "tags": [],
+      "title": "Requ\u00eater des DataFrames Pandas avec un API REST"
+   },
+   {
+      "rawhtml": "<p>Voici <a href=\"http://www.bigeng.io/elasticsearch-scaling-multitenant/\">un article</a> qui d\u00e9crit comment un architecture distribu\u00e9e bas\u00e9e sur ElasticSearch a \u00e9t\u00e9 optimis\u00e9e. Il s\u2019agit d\u2019un gros cluster de 23 n\u0153uds et 60 shards\u00a0; a priori bien au del\u00e0 de ce qu\u2019on rencontre. Mais c\u2019est int\u00e9ressant de voir comment ils ont diagnostiqu\u00e9 le syst\u00e8me pour l\u2019am\u00e9liorer. </p>",
+      "date": "2016-11-21",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Diagnostics et Optimisation de ElasticSearch en production"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html\">Cet article</a> est le troisi\u00e8me d\u2019une s\u00e9rie sur l\u2019\u00e9valuation des mod\u00e8les de machine learning. Celui-ci porte sur la validation crois\u00e9e et l\u2019optimisation des hyper param\u00e8tres. Comme pour les deux article pr\u00e9c\u00e9dent les illustrations sont de qualit\u00e9 et facilitent la compr\u00e9hension. </p>",
+      "date": "2016-11-21",
+      "images": [],
+      "tags": [],
+      "title": "Evaluation des mod\u00e8les\u00a0: un tutoriel tr\u00e8s complet"
+   },
+   {
+      "rawhtml": "<p>Un g\u00e9n\u00e9rateur de site statique est un programme qui prend en entr\u00e9e le contenu du site sous une forme lisible par un humain (typiquement\u00a0: un ensemble de pages en Markdown) et le converti en un ensemble de pages HTML. Pour publier le site web il ne reste plus qu\u2019\u00e0 placer l\u2019ensemble des fichiers sur un serveur ou d\u2019utiliser un Content Delivery Network qui garanti un chargement des pages tr\u00e8s rapide. Il existe plusieurs g\u00e9n\u00e9rateurs de site \u00e9crit en Python\u00a0: <a href=\"http://blog.getpelican.com/\">Pelican</a>, <a href=\"https://www.getlektor.com/\">Lektor</a>, <a href=\"https://getnikola.com/\">Nikola</a>. Parce que cette m\u00e9thode est facile \u00e0 utiliser <a href=\"https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/\">elle est devenue populaire</a> ces derni\u00e8res ann\u00e9es. </p><p>Cette m\u00e9thode se diff\u00e9rencie d\u2019un site avec une gestion de contenu (CMS) o\u00f9 le serveur doit faire des requ\u00eates en base pour construire \u00e0 la vol\u00e9e la page qui est requ\u00eat\u00e9e (c\u2019est ce que fait Django ou Flask). </p>",
+      "date": "2016-11-21",
+      "images": [],
+      "tags": [],
+      "title": "Static Website Generators"
+   },
+   {
+      "rawhtml": "<p>Il y a eu r\u00e9cemment des progr\u00e8s sur la traduction parole -&gt; texte. <a href=\"http://blogs.microsoft.com/next/2016/10/18/historic-achievement-microsoft-researchers-reach-human-parity-conversational-speech-recognition/\">Microsoft annonce</a> une m\u00e9thode qui est aussi performante que des professionnels (<a href=\"https://arxiv.org/abs/1610.05256\">article</a>). Mais on peut encore aller plus loin\u00a0: reconna\u00eetre ce qui est dit par lecture sur les l\u00e8vres\u00a0: pas besoin du son, seulement de la vid\u00e9o. Voici <a href=\"https://www.youtube.com/watch?v=5aogzAUPilE\">une d\u00e9mo</a> et <a href=\"https://arxiv.org/abs/1611.05358\">l\u2019article correspondant</a>. Tr\u00e8s impressionnant techniquement et <a href=\"http://ctj.org/images/2014/googleevil.jpg\">pas inqui\u00e9tant</a> du tout. </p>",
+      "date": "2016-11-21",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Reconnaissance de la parole."
+   },
+   {
+      "rawhtml": "<p>Google a sorti un outil de visualisation similaire \u00e0 Tableau. <a href=\"https://www.google.com/analytics/data-studio/gallery/\">Data Studio</a> permet de cr\u00e9er des dashboards simples que l\u2019on peut partager. Une version gratuite est disponible. L\u2019outil a l\u2019air orient\u00e9 particuli\u00e8rement pour l\u2019\u00e9cosyst\u00e8me Google (connexions avec Adwords, Analytics, Big Query, etc.). ",
+      "date": "2016-11-21",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Nouvel outil de visualisation par Google"
+   },
+   {
+      "rawhtml": "<p>Une mani\u00e8re usuelle d\u2019exposer les r\u00e9sultats d\u2019un mod\u00e8le de machine learning est de construire une API de pr\u00e9diction\u00a0: cette API retourne la pr\u00e9diction quand on lui envoie les features d\u2019un exemple. <a href=\"https://blog.metaflow.fr/tensorflow-how-to-freeze-a-model-and-serve-it-with-a-python-api-d4f3596b3adc\">Cet article de blog</a> explique comment r\u00e9aliser cette API en Flask en utilisant un mod\u00e8le Tensorflow sauvegard\u00e9 apr\u00e8s avoir \u00e9t\u00e9 entra\u00een\u00e9. </p><p>Notes\u00a0:</p><ul><li><a href=\"http://bottlepy.org/docs/dev/\">Bottle.py</a> est parfois plus simple que Flask pour des petits projets</li><li>Sklearn <a href=\"http://scikit-learn.org/stable/modules/model_persistence.html\">permet \u00e9galement de sauvegarder</a> des mod\u00e8les entra\u00een\u00e9s</li></ul>",
+      "date": "2016-11-21",
+      "images": [],
+      "tags": [],
+      "title": "Mettre un mod\u00e8le derri\u00e8re une API"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://github.com/deepgraph/deepgraph\">La librairie Deepgraph</a> permet de d\u00e9finir et modifier des Graphs en tant que DataFrames Pandas. La librairie ne dispose pas pour le moment de beaucoup de fonctions analytiques. Elle permet cependant de convertir les graphs dans d\u2019autres repr\u00e9sentations (matrices creuses de Scipy, graphs de NetworkX ou graph_tools). Deepgraph fournit \u00e9galement quelques outils de visualisations de r\u00e9seaux. </p>",
+      "date": "2016-11-21",
+      "images": [],
+      "tags": [],
+      "title": "Analyse de Graphs avec Pandas"
+   },
+   {
+      "rawhtml": "<p>Dans la jungle des librairies de DeepLearning, Quantmetry n\u2019a toujours pas choisi sa librairie de r\u00e9f\u00e9rence. Amazon ne nous a pas attendu <a href=\"http://www.allthingsdistributed.com/2016/11/mxnet-default-framework-deep-learning-aws.html\">et a arr\u00eat\u00e9</a> son choix sur <a href=\"http://mxnet.io/api/python/index.html\">MXNet</a>. Cela veut surement dire que cette librairie sera dans le futur la plus simple \u00e0 utiliser sur les instances AWS. Rappelons cependant qu\u2019il est possible de louer une <a href=\"https://aws.amazon.com/marketplace/pp/B01M0AXXQB\">instance pr\u00e9-install\u00e9e</a> pour le DeepLearning (MXNet, Caffe, Tensorflow, Theano, Torch and CNTK). </p>",
+      "date": "2016-11-21",
+      "images": [],
+      "tags": [],
+      "title": "DeepLearning sur AWS\u00a0: MXNet"
+   },
+   {
+      "rawhtml": "<p>Une pr\u00e9c\u00e9dente \u00e9dition de la Newsletter abordait le th\u00e8me des closures (ces fonctions qui m\u00e9morisent le scope dans lequel elles ont \u00e9t\u00e9 cr\u00e9\u00e9es) avec <a href=\"http://www.discoversdk.com/blog/closures-in-python-3\">cette article</a>. Pour approfondir voici <a href=\"http://www.informit.com/articles/article.aspx?p=2354943\">un autre article</a> de meilleur qualit\u00e9. </p>",
+      "date": "2016-11-21",
+      "images": [],
+      "tags": [],
+      "title": "Retour sur les closures en Python"
+   },
+   {
+      "rawhtml": "<p><a href=\"http://mapinseconds.com/\">Cet outil</a> en ligne promet de vous aider \u00e0 g\u00e9n\u00e9rer une carte en quelques secondes \u00e0 partir d\u2019un fichier excel. Ils utilisent pour \u00e7a une liste de lieux connus (noms de pays, noms d\u2019\u00e9tats am\u00e9ricains). A voir si le vocabulaire fran\u00e7ais est disponible. </p>",
+      "date": "2016-12-20",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Cr\u00e9er une carte en quelques secondes"
+   },
+   {
+      "rawhtml": "<p>L\u2019outil classique pour d\u00e9bugger un programme est d\u2019utiliser le d\u00e9bugger qui fait partie de la librairie standard\u00a0: <a href=\"https://docs.python.org/3.6/library/pdb.html\">pdb</a>. L\u2019usage est simple, il suffit s\u2019ajouter cette ligne dans son programme\u00a0:</p> </p><p>Une autre possibilit\u00e9 est <a href=\"https://www.mihneadb.net/tracing-through-python-functions/\">ce petit package</a> qui fournit un d\u00e9corateur \u00e0 ajouter \u00e0 la fonction que vous voulez analyser. Le d\u00e9corateur enregistre le comportement de la fonction et on peut l\u2019analyser par la suite via une interface graphique servie sur une interface web\u00a0:</p>",
+      "date": "2016-12-20",
+      "images": [
+         "location/in/app",
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "D\u00e9bugger une fonction en Python"
+   },
+   {
+      "rawhtml": "<p>J\u2019ai r\u00e9cemment d\u00e9couvert la librairie javascript <a href=\"http://dygraphs.com/\">dygraphs</a> qui permet de cr\u00e9er des jolies s\u00e9ries temporelles avec lesquelles ont peut interagir dans le navigateur. </p><p>Il y a <a href=\"https://rstudio.github.io/dygraphs/\">une version R</a> qui permet de s\u2019int\u00e9grer au markdown documents ou \u00e0 Shiny\u00a0; <a href=\"http://blog.dygraphs.com/2014/09/pydygraphs-dygraphs-plotting-module-for.html\">une version Python</a> pour \u00eatre mis dans les notebooks Jupyter. </p>",
+      "date": "2016-12-20",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "S\u00e9ries Temporelles interactives"
+   },
+   {
+      "rawhtml": "<p>Le package python <a href=\"http://hoverpy.readthedocs.io/en/latest/\">Hoverpy</a> a un r\u00f4le assez sp\u00e9cifique mais \u00e7a peut \u00eatre utile\u00a0:</p><ul><li>Phase 1\u00a0: Hoverpy est activ\u00e9 et enregistre les \u00e9changes http entre votre programme et l\u2019ext\u00e9rieur (typiquement\u00a0: une API externe que vous n\u2019avez pas \u00e9crite)</li><li>Phase 2\u00a0: Hoverpy se substitue \u00e0 l\u2019API externe pour les requ\u00eates qu\u2019il a d\u00e9j\u00e0 observ\u00e9es. Votre programme, au lieu de requ\u00eater sur le web, requ\u00eate en local les donn\u00e9es enregistr\u00e9es par Hoverpy. L\u2019int\u00e9r\u00eat est par exemple de tester un script qui d\u00e9pend d\u2019une API externe. Ca peut aussi \u00eatre utile si votre process repose sur une API publique qui a une limite dans le nombre de requ\u00eates. </li></ul>",
+      "date": "2016-12-20",
+      "images": [],
+      "tags": [],
+      "title": "Rejouer des appels \u00e0 une API"
+   },
+   {
+      "rawhtml": "<p>Lorsqu\u2019un algorithme de classification prend une d\u00e9cision qui impacte la vie d\u2019humains, il faut prendre le temps de comprendre comment cette d\u00e9cision est prise. En particulier, est ce que mon algorithme est coupable de discriminer une population par rapport \u00e0 une autre\u00a0? Il n\u2019est pas toujours facile de r\u00e9pondre \u00e0 cette question. </p><p><a href=\"https://research.google.com/bigpicture/attacking-discrimination-in-ml/\">Cet article</a> (vulgarisation de cet <a href=\"https://drive.google.com/file/d/0B-wQVEjH9yuhanpyQjUwQS1JOTQ/view\">article de recherche</a>) prend l\u2019exemple d\u2019un classifier qui d\u00e9cide si une personne peut ou non b\u00e9n\u00e9ficier d\u2019un cr\u00e9dit et discute le cas o\u00f9 deux populations ont un taux de d\u00e9faut diff\u00e9rent. </p><p>M\u00eame sans conna\u00eetre le fonctionnement interne de l\u2019algorithme, il est possible d\u2019imposer des contraintes qui garantissent que le syst\u00e8me n\u2019est pas discriminatoire. Plusieurs d\u00e9finitions peuvent \u00eatre utilis\u00e9es selon la situation.</p>",
+      "date": "2017-01-04",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Classification sans discrimination\u00a0?"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://drill.apache.org/docs/why-drill/\">Drill est un outil Apache</a> qui promet de faciliter la manipulation de donn\u00e9es multiples. Drill utilise une syntaxe SQL, permet de requ\u00eater de nombreux formats (Tables SQL ou Hive, fichiers JSON, bases no-sql\u2026) et promet une mise en place rapide. Je suis preneur d\u2019un retour d\u2019exp\u00e9rience si quelqu\u2019un a d\u00e9j\u00e0 utilis\u00e9 cet outil. </p><p><a href=\"https://github.com/hrbrmstr/sergeant\">Ce package open source</a> permet de faire la connexion entre R et Drill. En particulier on peut utiliser la syntaxe dplyr pour requ\u00eater efficacement tous les formats que Drill supporte.</p>",
+      "date": "2017-01-04",
+      "images": [],
+      "tags": [],
+      "title": "Utiliser Drill depuis R (dplyr)"
+   },
+   {
+      "rawhtml": "<p>S\u2019il y a une chose que la communaut\u00e9 R fait bien, ce sont <a href=\"https://www.rstudio.com/resources/cheatsheets/\">les fiches de documentations</a> qui sont claires et concises. </p><p>Pandas s\u2019inspire de ce mod\u00e8le et <a href=\"https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf\">cr\u00e9\u00e9 sa propre version</a></p>",
+      "date": "2017-01-04",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Cheatsheet pour Pandas\u00a0!"
+   },
+   {
+      "rawhtml": "<p>Plusieurs solutions sont d\u00e9j\u00e0 connues pour mesurer le temps d\u2019ex\u00e9cution des fonctions (la plus compl\u00e8te \u00e9tant <a href=\"https://docs.python.org/3.5/library/profile.html\">cProfile</a>). Une petite librairie, <a href=\"https://github.com/ramonsaraiva/timy\">timy</a>, fournit une solution \u00e9l\u00e9gante et simple \u00e0 utiliser en fournissant un d\u00e9corateur et un context-manager. De plus on peut d\u00e9sactiver la mesure quand on a termin\u00e9 la phase d\u2019optimisation sans avoir \u00e0 modifier le code. </p>",
+      "date": "2017-01-16",
+      "images": [],
+      "tags": [],
+      "title": "Mesurer le temps d\u2019ex\u00e9cution en Python"
+   },
+   {
+      "rawhtml": "<p>La RATP a r\u00e9cemment mis \u00e0 disposition en open data de <a href=\"https://data.ratp.fr/explore/?sort=modified\">nombreuses sources de donn\u00e9es</a>\u00a0:</p><ul><li>Horaires en temps r\u00e9el</li><li>Positions g\u00e9ographiques des stations</li><li>Trafic annuel par station</li><li>\u2026</li></ul><p>Par ailleurs Uber semble vouloir mettre \u00e0 disposition prochainement un jeu de donn\u00e9es contenant de l\u2019ordre de <a href=\"https://movement.uber.com/cities\">2 milliards de trajets</a>. Par contre la licence est contraignante\u00a0:</p><p>Movement makes all insights available under the Creative Commons, Attribution Non-Commercial license.</p>",
+      "date": "2017-01-16",
+      "images": [],
+      "tags": [],
+      "title": "Donn\u00e9es de transport"
+   },
+   {
+      "rawhtml": "<p>Nous savons tous que choisir les bonnes couleurs pour un graphique peut prendre du temps. <a href=\"http://deanattali.com/blog/plot-colour-helper/\">Cet outil s\u2019int\u00e8gre \u00e0 RStudio</a> et permet de changer dynamiquement les couleurs du graphique qu\u2019on est en train de g\u00e9n\u00e9rer. </p>",
+      "date": "2017-01-16",
+      "images": [],
+      "tags": [],
+      "title": "Plugin R Studio pour s\u00e9lectionner les bonnes couleurs"
+   },
+   {
+      "rawhtml": "<p>Il s\u2019agit d\u2019un <a href=\"https://blog.rstudio.org/2017/01/10/announcing-rstudio-connect-for-all-the-work-your-teams-do-in-r/\">nouveau produit RStudio</a>. Le logiciel tourne sur un serveur interne \u00e0 l\u2019entreprise et permet de rendre disponible des analyses R dans les formats classiques (Shiny, Markdown etc). Visiblement le logiciel peut interagir avec un syst\u00e8me d\u2019authentification existant et il fournit \u00e9galement un outil de monitoring du serveur. Bref un outil qui a l\u2019ait puissant pour partager facilement nos analyses avec les clients. </p>",
+      "date": "2017-01-16",
+      "images": [],
+      "tags": [],
+      "title": "Publier des analyses avec RStudio Connect"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://arxiv.org/pdf/0811.1679.pdf&amp;embedded=true\">Cet article</a> pr\u00e9sente une technique pour retranscrire la mani\u00e8re dont un algorithme fait des pr\u00e9dictions en un ensemble de r\u00e8gles. C\u2019est assez comparable dans l\u2019id\u00e9e aux m\u00e9thodes ensemblistes reposants sur des arbres de d\u00e9cisions. Les r\u00e9sultats sont peut-\u00eatre plus faciles \u00e0 manipuler / interpr\u00e9ter. </p>",
+      "date": "2017-01-16",
+      "images": [],
+      "tags": [],
+      "title": "Pr\u00e9dictions Ensemblistes par r\u00e8gles"
+   },
+   {
+      "rawhtml": "<p>La librairie <a href=\"http://dask.readthedocs.io/en/latest/\">Dask</a> fournit des objets de type dataframe qui ont une syntaxe proche de Pandas mais qui permettent d\u2019effectuer les calculs de mani\u00e8re distribu\u00e9e sur un cluster. <a href=\"http://matthewrocklin.com/blog/work/2017/01/12/dask-dataframes\">Voir ici pour un exemple</a> d\u2019utilisation. De mani\u00e8re g\u00e9n\u00e9rale, les diff\u00e9rents composants de <a href=\"http://blaze.pydata.org/\">l\u2019\u00e9cosyst\u00e8me Blaze</a> sont \u00e0 surveiller\u00a0!</p>",
+      "date": "2017-01-16",
+      "images": [],
+      "tags": [],
+      "title": "Utiliser Pandas dans une architecture distribu\u00e9e"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://www.docker.com/what-docker\">Docker</a> est un outil pour mettre ensemble une application et l\u2019ensemble de ses d\u00e9pendances. L\u2019id\u00e9e est qu\u2019il est ensuite facile de d\u2019ex\u00e9cuter cet assemblage Docker sur une machine diff\u00e9rente. <a href=\"https://github.com/bfirsh/whalebrew\">Whalebrew</a> est un outil qui facilite l\u2019installation de composants \u00e0 l\u2019int\u00e9rieur d\u2019un assemblage Docker. La liste des <a href=\"https://github.com/whalebrew/whalebrew-packages\">applications officiellement support\u00e9es</a> est assez courte mais il est a priori possible d\u2019installer d\u2019autres applications facilement. </p>",
+      "date": "2017-01-16",
+      "images": [],
+      "tags": [],
+      "title": "Faciliter l\u2019installation d\u2019applications dans Docker"
+   },
+   {
+      "rawhtml": "<p>Nous avons vu il y a deux semaines <a href=\"http://matthewrocklin.com/blog/work/2017/01/12/dask-dataframes\">un premier tutoriel</a> sur l\u2019utilisation de Dask\u00a0: une librairie Python qui permet de traiter des donn\u00e9es de mani\u00e8re distribu\u00e9e aussi facilement que des dataframes Pandas.</p><p>Aujourd\u2019hui <a href=\"http://matthewrocklin.com/blog/work/2017/01/24/dask-custom\">un deuxi\u00e8me article</a> qui insiste sur le r\u00f4le de Dask\u00a0en prenant l\u2019exemple d\u2019un algorithme qui serait complexe \u00e0 exprimer dans un paradigme map-reduce. Pour conclure, Dask c\u2019est \u00e0 la fois\u00a0:</p><ul><li>Un outil de calcul distribu\u00e9 au m\u00eame titre que Hadoop ou Spark</li><li>Un s\u00e9quenceur d\u2019ex\u00e9cution comme <a href=\"http://www.celeryproject.org/\">Celery</a>, <a href=\"https://github.com/spotify/luigi\">Luigi</a> ou <a href=\"https://airflow.incubator.apache.org/\">Airflow</a></li></ul><p>Figure : Dask g\u00e9n\u00e8re des graphiques qui synth\u00e9tise l'avancement de l'ex\u00e9cution sur les coeurs disponibles.</p>",
+      "date": "2017-01-16",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Dask\u00a0: \u00e0 la fois un outil de calcul et un s\u00e9quenceur d\u2019ex\u00e9cution"
+   },
+   {
+      "rawhtml": "<p>Si vous cr\u00e9er une application expos\u00e9e \u00e0 des utilisateurs ou contenant du texte saisi manuellement\u00a0: vous aurez forc\u00e9ment des cha\u00eenes de caract\u00e8res mal format\u00e9es que vous n\u2019avez pas envisag\u00e9es. <a href=\"https://github.com/minimaxir/big-list-of-naughty-strings\">Ce repository</a> contient simplement une liste de cha\u00eenes de caract\u00e8res susceptibles de faire planter une application. Tr\u00e8s utile pour mettre en place des tests unitaires\u00a0!</p>",
+      "date": "2017-01-16",
+      "images": [],
+      "tags": [],
+      "title": "Cha\u00eenes de caract\u00e8res malicieuses"
+   },
+   {
+      "rawhtml": "<p>Lorsque j\u2019utilise <a href=\"http://docs.ggplot2.org/current/\">ggplot2</a>, l\u2019excellente librairie de visualisation en R, j\u2019ai toujours besoin de regarder des exemples pour savoir comment obtenir ce que je veux. <a href=\"http://sharpsightlabs.com/blog/shipping-analysis-r-data-visualization/\">Ce court article</a> n\u2019a rien d\u2019exceptionnel en ce qui concerne l\u2019analyse de donn\u00e9es mais montre des exemples de visualisations bien travaill\u00e9es.</p>",
+      "date": "2017-01-16",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Un exemple d\u2019utilisation pouss\u00e9e de ggplot"
+   },
+   {
+      "rawhtml": "<p>Attention ce n\u2019est peut \u00eatre pas la source d\u2019information la plus fiable\u00a0: <a href=\"https://github.com/SocialDataSci/Geospatial_Data_with_Python\">un notebook</a> qui montre quelques exemples de librairies utiles pour la manipulation des donn\u00e9es g\u00e9ographiques\u00a0:</p><ul><li><a href=\"https://github.com/kjordahl/geopandas\">geopandas</a>\u00a0- Working with spatial data is fun again!</li><li><a href=\"https://pypi.python.org/pypi/Shapely\">shapely</a>\u00a0- For geometry handling</li><li><a href=\"http://toblerity.github.io/rtree/\">rtree</a>\u00a0- For efficiently querying spatial data</li><li><a href=\"https://code.google.com/p/pyshp/\">pyshp</a>\u00a0- For reading and writing shapefiles (in\u00a0pure\u00a0Python)</li><li><a href=\"https://code.google.com/p/pyproj/\">pyproj</a>\u00a0- For conversions between projections</li><li><a href=\"http://toblerity.github.io/fiona/\">fiona</a>\u00a0- For making it\u00a0easy\u00a0to read/write geospatial data formats</li><li><a href=\"https://pypi.python.org/pypi/GDAL/\">ogr/gdal</a>\u00a0- For reading, writing, and transforming geospatial data formats</li><li><a href=\"https://code.google.com/p/geopy/\">geopy</a>\u00a0- For geolocating and things like that</li><li><a href=\"http://pysal.org/\">pysal</a>\u00a0- Spatial econometrics, exploratory spatial and spatio-temporal data analysis, spatial clustering (and more)</li><li><a href=\"https://pypi.python.org/pypi/descartes\">descartes</a>\u00a0- For plotting geometries in matplotlib</li></ul>",
+      "date": "2017-01-16",
+      "images": [],
+      "tags": [],
+      "title": "Introduction \u00e0 la manipulation des donn\u00e9es g\u00e9ographiques en Python"
+   },
+   {
+      "rawhtml": "<p>Facebook <a href=\"https://research.fb.com/prophet-forecasting-at-scale/?utm_campaign=Revue%20newsletter&amp;utm_medium=Newsletter&amp;utm_source=revue\">vient de rendre disponible</a> en open-source un module de pr\u00e9diction de s\u00e9ries temporelles\u00a0: <a href=\"https://github.com/facebookincubator/prophet\">Prophet</a>. Ce module semble reposer sur des techniques simples (ARIMA, lissage exponentiel, etc) mais a l\u2019int\u00e9r\u00eat d\u2019\u00eatre facile\u00a0\u00e0 utiliser \u00e0 la fois <a href=\"https://facebookincubator.github.io/prophet/docs/quick_start.html\">en R et en Python</a>.</p>",
+      "date": "2017-02-27",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Pr\u00e9dictions de s\u00e9ries temporelles par Facebook"
+   },
+   {
+      "rawhtml": "<p>Airbnb confirme sa position d\u2019acteur majeur du monde de la datascience avec son outil de visualisation / exploration de donn\u00e9es\u00a0: <a href=\"https://github.com/airbnb/superset\">Superset</a> (anciennement Caravel). Cet outil permet de cr\u00e9er rapidement des dashboards \u00e0 partir de donn\u00e9es pr\u00e9sentes en base. Il <a href=\"http://airbnb.io/superset/installation.html\">est possible d\u2019installer</a> sa propre version en local et de servir les dashboards en tant qu\u2019applications Web sur le r\u00e9seau du client.</p>",
+      "date": "2017-02-27",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Outil d\u2019exploration de donn\u00e9es par Airbnb"
+   },
+   {
+      "rawhtml": "<p>St\u00e9phane nous partage cet excellent <a href=\"https://neo4j.com/blog/buzzfeed-trumpworld-dataset-neo4j/\">tutoriel / exemple de l\u2019utilisation de Neo4J</a> appliqu\u00e9 au jeu de donn\u00e9es de relations entre personnes et organisations entourant Donal Trump. Ce tutoriel montre comment importer les donn\u00e9es, d\u00e9finir les relations et fournit quelques exemples de requ\u00eates qui peuvent \u00eatre r\u00e9alis\u00e9es.</p>",
+      "date": "2017-02-27",
+      "images": [],
+      "tags": [],
+      "title": "Tutoriel Nea4J\u00a0: Trumpworld Dataset"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://medium.com/zendesk-engineering/how-zendesk-serves-tensorflow-models-in-production-751ee22f0f4b\">Cet article de blog de Zendesk</a> d\u00e9crit la mani\u00e8re dont ils mettent en production et font \u00e9voluer des mod\u00e8les. En l\u2019occurrence les mod\u00e8les reposent sur TensorFlow et l\u2019architecture est un ensemble d\u2019instances AWS. </p>",
+      "date": "2017-02-27",
+      "images": [],
+      "tags": [],
+      "title": "Mod\u00e8les de machine learning en production"
+   },
+   {
+      "rawhtml": "<p>Le package <a href=\"http://www.data-imaginist.com/2017/Announcing-ggraph/\">gggraph</a> vient d\u2019\u00eatre publi\u00e9\u00a0: il s\u2019agit d\u2019une extension de ggplot2 sp\u00e9cifique \u00e0 la repr\u00e9sentation de donn\u00e9es relationnelles. Il s\u2019agit d\u2019un package r\u00e9cent mais c\u2019est \u00e0 tester\u00a0!",
+      "date": "2017-02-27",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Visualisation de graphs / arbres en R"
+   },
+   {
+      "rawhtml": "<p>Ce repository cherche \u00e0 condenser une liste restreinte de 100 articles de recherche sur l\u2019apprentissage profond. Il s\u2019agit des articles publi\u00e9s apr\u00e8s 2012 qui ont eu le plus d\u2019impact sur la communaut\u00e9\u00a0:</p><ul><li><a href=\"https://github.com/terryum/awesome-deep-learning-papers\">Awesome \u2013 Most Cited Deep Learning Papers</a></li></ul><p>Pour rappel, il existe d\u2019autres repository qui agr\u00e8gent les sources de cette mani\u00e8re \u2013 en g\u00e9n\u00e9ral ils sont plus orient\u00e9s tutoriels pratiques\u00a0:</p><ul><li><a href=\"https://github.com/ujjwalkarn/Machine-Learning-Tutorials/\">Machine Learning Tutorials</a></li><li><a href=\"https://github.com/ujjwalkarn/DataScienceR\">DataScience with R</a></li><li><a href=\"https://github.com/ujjwalkarn/DataSciencePython\">DataScience with Python</a></li></ul>",
+      "date": "2017-03-13",
+      "images": [],
+      "tags": [],
+      "title": "Liste d\u2019articles de recherche en Deep Learning"
+   },
+   {
+      "rawhtml": "<p>Le PDF est un \u2013 en g\u00e9n\u00e9ral \u2013 un format structur\u00e9 relativement clair et des outils existent pour r\u00e9cup\u00e9rer l\u2019information qu\u2019ils contiennent. Voir par exemple <a href=\"https://www.binpress.com/tutorial/manipulating-pdfs-with-python/167\">cette liste</a> pour une suggestion d\u2019outil (<a href=\"http://euske.github.io/pdfminer/index.html\">PDFMiner</a> semble le plus utile). </p><p>Un probl\u00e8me plus compliqu\u00e9 est de r\u00e9cup\u00e9rer les donn\u00e9es d\u2019un tableau lorsque le pdf a \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9 \u00e0 partir d\u2019une image / scan d\u2019un document texte. La librairie <a href=\"https://github.com/WZBSocialScienceCenter/pdftabextract\">pdftabextract</a> promet de rendre ce travail plus simple. En entr\u00e9e on fournit des documents pdf en sortie d\u2019un programme d\u2019OCR (Optical Character Recognition\u00a0; ex\u00a0: <a href=\"https://github.com/tesseract-ocr/tesseract\">tesseract</a>) et en sortie on obtient des dataframes Pandas. Voir <a href=\"https://datascience.blog.wzb.eu/2017/02/16/data-mining-ocr-pdfs-using-pdftabextract-to-liberate-tabular-data-from-scanned-documents/\">ici pour un tutoriel</a> d\u00e9taill\u00e9 d\u2019utilisation. </p>",
+      "date": "2017-03-13",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Extraire des donn\u00e9es (tableau) depuis un PDF"
+   },
+   {
+      "rawhtml": "<p>Vous connaissiez d\u00e9j\u00e0 <a href=\"http://www.data.gouv.fr/fr/\">http://www.data.gouv.fr/fr/</a> votre portail pr\u00e9f\u00e9r\u00e9 de l\u2019Open Source fran\u00e7ais. Si vous souhaitez changer d\u2019\u00e9chelle\u00a0et passer au niveau Europ\u00e9en\u00a0:</p><ul><li><a href=\"https://www.europeandataportal.eu/en\">https://www.europeandataportal.eu/en</a> regroupe les donn\u00e9es des diff\u00e9rents portails nationaux</li><li><a href=\"http://data.europa.eu/euodp/fr/data\">http://data.europa.eu/euodp/fr/data</a> met \u00e0 disposition les donn\u00e9es qui sont g\u00e9n\u00e9r\u00e9es par les diff\u00e9rentes institutions europ\u00e9ennes</li></ul>",
+      "date": "2017-03-13",
+      "images": [],
+      "tags": [],
+      "title": "European Data Portal"
+   },
+   {
+      "rawhtml": "<p>Les donn\u00e9es g\u00e9ographiques ont toujours des sp\u00e9cifit\u00e9s de format qui les rendent plus difficiles \u00e0 manipuler. <a href=\"http://www.computerworld.com/article/3175623/data-analytics/mapping-in-r-just-got-a-whole-lot-easier.html\">Ce tutoriel recommande</a> de s\u2019appuyer sur deux packages\u00a0:</p><ul><li><a href=\"https://github.com/edzer/sfr\">Simple Features for R</a>\u00a0: permet de manipuler des data.frame dont les colonnes peuvent \u00eatre des features\u00a0au sens g\u00e9ographique\u00a0: point, ligne, polygone, etc.</li><li> <a href=\"https://cran.r-project.org/web/packages/tmap/vignettes/tmap-nutshell.html\">tmap\u00a0</a>: permet de g\u00e9n\u00e9rer des cartes \u00e0 partir de features g\u00e9ographiques. Ce package utilise une synthaxe proche de ggplot. Il est possible de g\u00e9n\u00e9rer des images statiques ou des cartes interactives en s\u2019appuyant sur <a href=\"https://rstudio.github.io/leaflet/\">leaflet</a>. </li></ul>",
+      "date": "2017-03-13",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Manipuler et afficher des cartes en R"
+   },
+   {
+      "rawhtml": "<p>Voir Youssef qui est maintenant l\u2019expert sur le sujet. En ligne\u00a0:</p><ul><li>le documentation officielle fournit une <a href=\"https://python-packaging.readthedocs.io/en/latest/index.html\">description exhaustive</a> de comment packager du code ainsi qu\u2019une explication sur les notions de <a href=\"https://docs.python.org/3.5/tutorial/modules.html\">package et module</a></li><li><a href=\"https://medium.com/small-things-about-python/lets-talk-about-python-packaging-6d84b81f1bb5\">ce court article</a> d\u00e9crit de mani\u00e8re <strong>synth\u00e9tiques</strong> les \u00e9tapes principales pour packager le code.</li></ul>",
+      "date": "2017-03-13",
+      "images": [],
+      "tags": [],
+      "title": "Cr\u00e9ation d\u2019un package Python"
+   },
+   {
+      "rawhtml": "<p>La mise en production d\u2019un mod\u00e8le entra\u00een\u00e9 reste une probl\u00e9matique r\u00e9currente chez nos clients. Une solution possible est de cr\u00e9er un service web\u00a0: un serveur peut \u00eatre requ\u00eat\u00e9 via une API REST. Une requ\u00eate contenant les features est envoy\u00e9e au server\u00a0; celui-ci retourne la pr\u00e9diction. C\u2019est ce que propose le framework <a href=\"https://github.com/manigoswami/lightningbolt\">Lightning-Bolt</a>  qui s\u2019appuie sur Bottle pour la partie serveur et scikit-learn pour la pr\u00e9diction. </p>",
+      "date": "2017-03-27",
+      "images": [],
+      "tags": [],
+      "title": "Servir un mod\u00e8le de machine learning avec une API Web"
+   },
+   {
+      "rawhtml": "<p>L\u2019oubli est un probl\u00e8me qui se pose lors de l\u2019apprentissage s\u00e9quentiel de plusieurs t\u00e2ches. Par exemple imaginons qu\u2019un algorithme cherche \u00e0 reconna\u00eetre les chiffres \u00e0 partir d\u2019images (MNIST). Si les donn\u00e9es sont fournies \u00e0 l\u2019algorithme dans l\u2019ordre des chiffres, il apprend les t\u00e2ches s\u00e9quentiellement\u00a0: d\u2019abord comment reconna\u00eetre le 0, puis le 1, le 2, etc. Puisque les param\u00e8tres de l\u2019algorithme \u00e9voluent en continue (descente de gradient par exemple), il est possible qu\u2019une fois arriv\u00e9 au chiffre 9 l\u2019algorithme ne sache plus reconna\u00eetre le 0\u00a0: il a \u00ab\u00a0oubli\u00e9\u00a0\u00bb. Deux solutions sont possibles\u00a0:</p><ul><li>M\u00e9langer les donn\u00e9es d\u2019entra\u00eenement : c\u2019est la solution triviale que nous utilisons syst\u00e9matiquement. Cependant cette solution n\u2019est pas toujours r\u00e9alisable\u00a0; elle n\u00e9cessite en particulier que toutes les donn\u00e9es existent au d\u00e9but de l\u2019entrainement. C\u2019est impossible dans une situation d\u2019online learning ou compliqu\u00e9 dans le cas o\u00f9 les donn\u00e9es ont \u00e9t\u00e9 s\u00e9par\u00e9es en chunks homog\u00e8nes. </li><li>Utiliser une m\u00e9thode d\u2019apprentissage qui emp\u00eache l\u2019algorithme d\u2019oublier. C\u2019est cette m\u00e9thode qui est expliqu\u00e9e dans <a href=\"http://www.pnas.org/content/early/2017/03/13/1611835114.full.pdf\">l\u2019article de recherche suivant</a>. Ce blog fait l\u2019effort de <a href=\"http://rylanschaeffer.github.io/content/research/overcoming_catastrophic_forgetting/main.html\">vulgariser</a> le contenu de l\u2019article. L\u2019id\u00e9e principale est de r\u00e9duire le pas d\u2019apprentissage sur les param\u00e8tres du mod\u00e8le qui ont \u00e9t\u00e9 jug\u00e9s comme cruciaux pour l\u2019apprentissage d\u2019une t\u00e2che pr\u00e9c\u00e9dente. </li></ul>",
+      "date": "2017-03-27",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Apprentissage s\u00e9quentiel\u00a0: comment ne pas oublier"
+   },
+   {
+      "rawhtml": "<p>Vous r\u00eavez d\u2019\u00eatre \u00e0 la t\u00eate du prochain BigBrother\u00a0? Ou bien voulez vendre une application qui recommande le chapeau le plus adapt\u00e9 au visage du client\u00a0? Dans tous les cas vous aurez besoin d\u2019une m\u00e9thode qui extrait / reconna\u00eet les visages pr\u00e9sents dans une photo. Le package python <a href=\"https://github.com/ageitgey/face_recognition\">face_recognition</a> permet de faire ce type d\u2019op\u00e9rations avec une API simple. Le package vient avec un algorithme <a href=\"http://vis-www.cs.umass.edu/lfw/\">pr\u00e9-entra\u00een\u00e9 sur un jeu de plus de 5000</a> personnes. </p>",
+      "date": "2017-03-27",
+      "images": [
+         "location/in/app",
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Reconnaissance de visages"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://github.com/AdeelK93/collapsibleTree\">Ce package R</a> permet d\u2019afficher des arbres interactifs (<a href=\"https://adeelk93.shinyapps.io/collapsibletree/\">d\u00e9mo</a>)\u00a0: on peut cliquer sur les n\u0153uds de l\u2019arbre pour les fermer / ouvrir. Ce package s\u2019appuie sur le <a href=\"https://bl.ocks.org/mbostock/4339083\">collapsibleTree</a> de D3.js. </p>",
+      "date": "2017-03-27",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Afficher des arbres interactifs en R"
+   },
+   {
+      "rawhtml": "<p>L\u2019objectif de ce projet est de classifier des images de cellules (globules blanc) en diff\u00e9rentes cat\u00e9gories qui correspondent \u00e0 des pathologies. Dans <a href=\"https://blog.athelas.com/classifying-white-blood-cells-with-convolutional-neural-networks-2ca6da239331\">cet article de blog</a>, l\u2019auteur explique comment un r\u00e9seau de neurones a \u00e9t\u00e9 entrain\u00e9 pour faire cette classification. <a href=\"https://github.com/dhruvp/wbc-classification/blob/master/notebooks/binary_training.ipynb\">Le code</a> est \u00e9galement disponible. L\u2019auteur travaille visiblement chez <a href=\"https://athelas.com/\">Athelas</a> qui cherche \u00e0 commercialiser une solution de diagnostic rapide \u00e0 partir de ce qui est pr\u00e9sent\u00e9 dans l\u2019article. </p>",
+      "date": "2017-04-10",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Deep Learning pour l\u2019analyse d\u2019images m\u00e9dicales"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://explainshell.com/explain?cmd=netstat+-tulpn+%7C+grep+python\">Ce petit site</a> permet de saisir une ligne de commande bash un peu complexe et fournit une explication synth\u00e9tique de tous les composants de cette ligne de commande. Tr\u00e8s pratique pour \u00eatre s\u00fbr de ne pas faire de b\u00eatises. </p>",
+      "date": "2017-04-10",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Expliquer les lignes de commandes bash"
+   },
+   {
+      "rawhtml": "<p>La team Azure met \u00e0 disposition des petits outils d\u2019exploration interactive de donn\u00e9es qui se pr\u00e9sentent sous la forme\u00a0:</p><ul><li>D\u2019un <a href=\"https://github.com/Azure/Azure-TDSP-Utilities/blob/master/DataScienceUtilities/DataReport-Utils/Python/IDEAR-Python-Instructions-JupyterNotebook.md\">notebook python</a></li><li>D\u2019une <a href=\"https://github.com/Azure/Azure-TDSP-Utilities/blob/master/DataScienceUtilities/DataReport-Utils/R/team-data-science-process-idear-instructions.md\">application shiny pour R</a></li></ul><p>Par ailleurs il semblerait qu\u2019une <a href=\"https://blogs.technet.microsoft.com/machinelearning/2017/04/05/latest-rev-of-utilities-for-microsoft-team-data-science-process-tdsp-now-available/\">version existe \u00e9galement pour MRS</a> (Microsoft R Server) et que cette version est capable de travailler sur des gros datasets (les versions pr\u00e9sent\u00e9e plus haut chargent en m\u00e9moire les dataset pour faire les visualisations). </p>",
+      "date": "2017-04-10",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Exploration de donn\u00e9es par Microsoft"
+   },
+   {
+      "rawhtml": "<p>Certains se rappelleront avec amertume de l\u2019appel d\u2019offre SNCF de g\u00e9olocalisation Wifi.. Pour ceux qui ne savent pas de quoi je parle, je vous conseille de parcourir <a href=\"http://www.gizmodo.co.uk/2017/04/exclusive-heres-what-museums-learn-by-tracking-your-phone/\">cet article vulgaris\u00e9</a> qui explique rapidement comment les signaux wifi de nos t\u00e9l\u00e9phones peuvent \u00eatre utilis\u00e9s pour r\u00e9aliser des cartes de flux \u00e0 l\u2019int\u00e9rieur des b\u00e2timents. L\u2019exemple pr\u00e9sent\u00e9 ici concerne la National Gallery \u00e0 Londres et a \u00e9t\u00e9 men\u00e9 par la soci\u00e9t\u00e9 <a href=\"http://www.polkaspots.com/about/\">Polkaspots</a>.</p>",
+      "date": "2017-04-10",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Mesure de flux de personnes \u00e0 partir de signaux WiFi"
+   },
+   {
+      "rawhtml": "<p>Le package <a href=\"https://github.com/Anaconda-Platform/nbpresent\">nbpresent</a> permet de cr\u00e9er des slides \u00e0 partir des outputs d\u2019un Jupyter Notebook. De plus ces outputs peuvent rester interactifs (le package <a href=\"https://github.com/jupyter-widgets/ipywidgets\">ipywidgets</a> permet de d\u00e9finir facilement des menus d\u00e9roulant, des sliders, etc.)</p>",
+      "date": "2017-04-10",
+      "images": [],
+      "tags": [],
+      "title": "A TESTER\u00a0: Transformez vos Notebooks en Web App en quelques clicks"
+   },
+   {
+      "rawhtml": "<p>Google <a href=\"https://opensource.googleblog.com/2017/04/tf-seq2seq-sequence-to-sequence-framework-in-tensorflow.html\">publie un nouveau framework</a> qui s\u2019appuie sur TensorFlow\u00a0: tf-seq2seq (sequence to sequence). Les cas d\u2019utilisation standard de ce framework sont la traduction, la synth\u00e8se de documents textuels, les chatbots. La <a href=\"https://google.github.io/seq2seq/getting_started/\">documentation</a> contient plusieurs exemples. </p>",
+      "date": "2017-04-10",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Encore des innovations sur le NLP par Google"
+   },
+   {
+      "rawhtml": "<p>Des chercheurs de Icahn School of Medicine at Mount Sinai Medical School (New York) ont exploit\u00e9 les donn\u00e9es m\u00e9dicales de 700 000 patients. <a href=\"https://www.nature.com/articles/srep26094\">Le r\u00e9sultat principal</a>  (<a href=\"http://www.readcube.com/articles/10.1038/srep26094\">pdf</a>) qu\u2019ils pr\u00e9sentent est la structuration de ces donn\u00e9es\u00a0: comment construire des features int\u00e9ressantes \u00e0 partir de sources vari\u00e9es (comptes-rendus, diagnostics, traitements, etc.). Ils ont utilis\u00e9 un ensemble d\u2019auto-encodeurs pour construire les features permettant de d\u00e9crire pr\u00e9cis\u00e9ment chaque personne. La pertinence de leur description est valid\u00e9e par son utilisation par un algorithme pr\u00e9dictif. Leur m\u00e9thode de construction de feature permet une pr\u00e9diction de meilleure qualit\u00e9. </p>",
+      "date": "2017-04-24",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Comment repr\u00e9senter l\u2019historique des patients\u00a0?"
+   },
+   {
+      "rawhtml": "<p>Vous savez bien s\u00fbr d\u00e9j\u00e0 comment mesurer le temps d\u2019ex\u00e9cution d\u2019un programme\u00a0ou des diff\u00e9rentes fonctions au sein d\u2019un programme (<a href=\"https://docs.python.org/3.5/library/profile.html\">cProfile</a>). Aujourd\u2019hui vous pouvez \u00e9galement <a href=\"https://pypi.python.org/pypi/memory_profiler\">mesurer</a> comment l\u2019impact du programme en terme de m\u00e9moire RAM. Tr\u00e8s utile si on utilise massivement les dataFrame Pandas qui peuvent \u00eatre gourmands en m\u00e9moire.   </p>",
+      "date": "2017-04-24",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Surveiller la gestion de la m\u00e9moire en Python"
+   },
+   {
+      "rawhtml": "<p>Microsoft a <a href=\"https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/19/python-in-sql-server-2017-enhanced-in-database-machine-learning/\">annonc\u00e9 r\u00e9cemment</a> que la prochaine version de SQL Server permettrait d\u2019ex\u00e9cuter du code Python directement dans la base de donn\u00e9es. Pour comprendre comment cela fonctionne, on peut regarder la documentation pour <a href=\"https://docs.microsoft.com/en-us/sql/advanced-analytics/r/sql-server-r-services\">SQL Server R Services</a> puisque le langage R est adopt\u00e9 depuis l\u2019ann\u00e9e derni\u00e8re. </p>",
+      "date": "2017-04-24",
+      "images": [],
+      "tags": [],
+      "title": "Python/R dans SQL Server"
+   },
+   {
+      "rawhtml": "<p>Des chercheurs de Berkeley pr\u00e9sentent dans <a href=\"https://arxiv.org/pdf/1611.07004.pdf\">cet article</a> une m\u00e9thode de traduction qui prend en entr\u00e9e une image et fournit en sortie une nouvelle image. La m\u00e9thode repose sur un Generative Adversarial Network (GAN). <a href=\"https://phillipi.github.io/pix2pix/\">L\u2019impl\u00e9mentation</a> utilise Torch, une autre personne a <a href=\"https://affinelayer.com/pix2pix/\">refait le projet</a> en s\u2019appuyant sur Tensorflow. Enfin un outil en ligne qui utilise cette techno vous permet de <a href=\"https://affinelayer.com/pixsrv/index.html\">dessiner des chatons</a>\u00a0!</p><p> ",
+      "date": "2017-04-24",
+      "images": [
+         "location/in/app"
+      ],
+      "tags": [],
+      "title": "Image -&gt; Image"
+   },
+   {
+      "rawhtml": "<p><a href=\"https://github.com/pachyderm/pachyderm\">Pachyderm est un outil</a> qui permet de g\u00e9rer de mani\u00e8re abstraite des donn\u00e9es et la mani\u00e8re dont elles sont transform\u00e9es par un pipeline de traitement. Par <a href=\"https://github.com/pachyderm/pachyderm/tree/master/doc/examples/ml/tensorflow\">exemple</a> il peut \u00eatre utilis\u00e9 pour g\u00e9rer les diff\u00e9rents datasets de l\u2019exemple pr\u00e9c\u00e9dent de transformation d\u2019images. L\u2019int\u00e9r\u00eat d\u2019utiliser un outil comme Pachyderm (ou <a href=\"https://github.com/spotify/luigi\">Luigi</a> / <a href=\"https://airflow.incubator.apache.org/\">Airflow</a>) est la reproductibilit\u00e9 du traitement et sa modularit\u00e9. </p>",
+      "date": "2017-04-24",
+      "images": [],
+      "tags": [],
+      "title": "Versionning de donn\u00e9es et construction de pipelines"
+   }
 ]
