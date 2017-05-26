@@ -55,3 +55,5 @@ $ bash build_newsletter_data.sh
 ```
 
 Parameters of the Python script are in `newsletter_builder/application/config.ini`. The generated JSON files are to be placed in `src/data/`
+
+**Note**: the Python project uses absolute imports and assumes that this project was added to the `$PYTHONPATH`.
