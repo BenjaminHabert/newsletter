@@ -12,7 +12,7 @@ function helloController($scope, $http) {
     .then(function (result) {
       $scope.tags = result.data;
     });
-  $scope.limitExpand = 5;
+  $scope.limitExpand = 10;
   $scope.limit = $scope.limitExpand;
   var news = [];
   $http

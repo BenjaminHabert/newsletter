@@ -1,4 +1,6 @@
 import re
+import os
+import hashlib
 import mammoth
 
 
@@ -55,7 +57,6 @@ def html_to_newsitems(html):
         title = find_title(raw, balise, text)
         if title:
             if newsitem:
-
                 news.append(conclude_newsitem(newsitem))
             newsitem = {
                 'title': title,
@@ -69,23 +70,29 @@ def html_to_newsitems(html):
     return news
 
 
-def convert_image(image):
-    # with image.open() as image_bytes:
-    #     encoded_src = base64.b64encode(image_bytes.read()).decode("ascii")
-    # STEP 1: save image to disc
-    # TODO
-    # STEP 2: return image info (location in app)
-    return {
-        # "src": "data:{0};base64,{1}".format(image.content_type, encoded_src)
-        "src": 'location/in/app'
-    }
+def build_converter(output_image_folder):
+    def image_converter(image):
+        with image.open() as image_bytes:
+            image_data = image_bytes.read()
+            image_hash = hashlib.new("sha1", image_data).hexdigest()
+            image_extension = image.content_type.split('/')[1]
+            image_name = image_hash + "." + image_extension
+            image_path = os.path.join(output_image_folder, image_name)
+            if not os.path.exists(image_path):
+                with open(image_path, 'wb') as f:
+                    f.write(image_data)
+        return {
+            "src": image_name
+        }
+    return image_converter
 
 
-def docx_to_newsitems(filename):
+def docx_to_newsitems(filename, output_image_folder):
+    image_converter = build_converter(output_image_folder)
     with open(filename, "rb") as docx_file:
         result = mammoth.convert_to_html(
             docx_file,
-            convert_image=mammoth.images.img_element(convert_image))
+            convert_image=mammoth.images.img_element(image_converter))
         html = result.value  # The generated HTML
         messages = result.messages  # Any messages, such as warnings during conversion
         structured = html_to_newsitems(html)
