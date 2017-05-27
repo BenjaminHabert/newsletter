@@ -14,6 +14,7 @@ config = Config(configfile)
 # STEP 1: read docx and convert to structured documents
 print('[newsletter_builder] Converting docx files to json')
 input_folder = config['paths']['input_docs']
+output_image_folder = config['paths']['output_image_folder']
 filenames = [
     os.path.join(input_folder, f)
     for f in os.listdir(input_folder)
@@ -21,7 +22,7 @@ filenames = [
 ]
 newsitems = []
 for filename in filenames:
-    newsitems += docx_to_newsitems(filename)
+    newsitems += docx_to_newsitems(filename, output_image_folder)
 
 
 # STEP 2: train on this corpus
