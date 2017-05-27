@@ -14,4 +14,5 @@ angular
 
 function newsItemController($scope, $sce) {
   $scope.innerHTML = $sce.trustAsHtml($scope.itemData.rawhtml);
+  $scope.image_list = $scope.itemData.images;
 }
